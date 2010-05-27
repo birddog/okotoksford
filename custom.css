@@ -70,7 +70,7 @@ body.page-parent #home-content{position:relative;top:-15px;z-index:30;}
 #menubar .nav li.page-item-3008 a{background-position:-595px 0;width:100px;}
 #menubar .nav li.page-item-163 {background-position:-735px 0;width:140px;}
 #menubar .nav li.page-item-165 a{background-position:-735px 0;width:71px;}
-#menubar .nav li.last{float:left;width:180px;background-image:url(/wp-content/uploads/menubar-nav-bg.png);background-position:right top;height:34px;}
+#menubar .nav li.last{float:left;width:170px;background-image:url(/wp-content/uploads/menubar-nav-bg.png);background-position:right top;height:34px;}
 /* menubar overrides */
 .nav li a,
 .nav li a:visited .nav li li a,
