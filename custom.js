@@ -281,7 +281,14 @@ jQuery(function($) {
           "background-repeat" : "no-repeat"
         });
       } else {
-        sidebarMenu.find("li:first ul").show().addClass("activeParent");
+		  if($("body.page-id-232").length){
+			sidebarMenu.find("li:first ul").show().addClass("activeParent").css({
+				"background-color" : "#F4F4F4",
+				"background-image" : "url(/wp-content/uploads/sidebar-current-page-arrow.png)",
+				"background-position" : "left -280px",
+				"background-repeat" : "no-repeat"
+			});;
+		  }
       }
     }
   }
