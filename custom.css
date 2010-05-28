@@ -558,7 +558,9 @@ ul.accessoriesWrap li .pleft{padding:10px 30px 20px 10px;}
 .bird_dog .listings .search .grad.toggle > div{
 	background:url(/wp-content/uploads/green-arrow.jpg) scroll no-repeat 0 0 transparent!important;
 	height:25px;
-	display:inline;
+	width:34px;
+	display:inline-block;
+	vertical-align:middle;
 }
 	
 .bird_dog .listings .search .quick-combo-search{display:inline-block;padding:10px 0 10px 5px;text-align:left;}
