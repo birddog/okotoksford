@@ -441,13 +441,13 @@ ul#steps li span{font-size:11px;display:block;}
 #tradeEstimate #step-4 .form-item{width:218px;}
 #tradeEstimate #step-5 .form-item{width:40%;}
 #tradeEstimate .next,
-#tradeEstimate .prev{display:block;padding:5px;background-color:rgba(0,91,127,0.7);color:#fff;font-size:12px;}
+#tradeEstimate .prev{display:block;padding:5px;background-color:rgba(45,179,74,0.7);color:#fff;font-size:12px;}
 #tradeEstimate a.next:hover,
 #tradeEstimate a.prev:hover{background-color:rgba(0,91,127,1.0);}
 #tradeEstimate .prev{float:left;}
 #tradeEstimate .next{float:right;}
 #tradeEstimate > p{margin-left:0!important;margin-top:10px;}
-#tradeEstimate > p > input{display:block;padding:5px;background-color:rgba(0,91,127,1.0);color:#fff;font-size:12px;cursor:pointer;}
+#tradeEstimate > p > input{display:block;padding:5px;background-color:rgba(45,179,74,1.0);color:#fff;font-size:12px;cursor:pointer;}
 
 /**************************************
 * Flash App Pages
