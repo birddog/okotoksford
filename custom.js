@@ -321,9 +321,9 @@ jQuery(function($) {
       $("h2.trigger:first").next(".toggle_container").slideToggle("slow");
 
       $('h2.trigger').toggle(function(){
-        $(this).css({"background": "url(/wp-content/uploads/h2_trigger_a.gif) no-repeat scroll 0 bottom transparent"}).next(".toggle_container").slideToggle("slow")
+        $(this).css({"background": "url(/wp-content/uploads/green-arrow-up.jpg) no-repeat scroll 0 bottom transparent"}).next(".toggle_container").slideToggle("slow")
       }, function() {
-        $(this).css({"background": "url(/wp-content/uploads/h2_trigger_a.gif) no-repeat scroll 0 top transparent"}).next(".toggle_container").slideToggle("fast");
+        $(this).css({"background": "url(/wp-content/uploads/green-arrow.jpg) no-repeat scroll 0 top transparent"}).next(".toggle_container").slideToggle("fast");
       });
 
     }
