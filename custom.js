@@ -276,7 +276,7 @@ jQuery(function($) {
         current.parent().parent().find("a").addClass("activeParent");
         current.parent().css({
           "background-color" : "#F4F4F4",
-          "background-image" : "url(/wp-content/uploads/menu-arrow.png)",
+          "background-image" : "url(/wp-content/uploads/sidebar-current-page-arrow.png)",
           "background-position" : "left" + " " + bgOffset + "px",
           "background-repeat" : "no-repeat"
         });
