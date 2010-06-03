@@ -199,7 +199,7 @@ td#footer a:hover{color:#2db34a ;font-weight:bold;text-decoration:none;}
 .dt-showcase .equipment{font-weight:bold;color:#009;}
 .dt-showcase .equipment li{float:left;width:40%;display:inline-block;margin:0 0 0 10px;color:999;font-weight:normal;}
 .dt-showcase .equipment li:before{content:'Ã¢â‚¬Â¢ ';}
-.dt-showcase .detail .photo-gallery-button{margin-left:180px;margin-top:10px;width:82px;height:21px;color:transparent!important;background:url(/wp-content/uploads/IMAGE-GALLERY.jpg) no-repeat center center;}
+.dt-showcase .photo-gallery-button{margin-left:180px;margin-top:10px;color:transparent;width:85;height:24;cursor:pointer;border:none;background:url(/wp-content/uploads/IMAGE-GALLERY.jpg) no-repeat top left;}
 .dt-showcase .detail .vehicle-info .opt-buttons a.button-facebook{width:132px;height:39px;background:transparent url(/wp-content/uploads/btn-facebook.jpg) center center no-repeat;color:transparent!important;}
 .dt-showcase .detail .vehicle-info .opt-buttons a.button-twitter{width:132px;height:39px;background:transparent url(/wp-content/uploads/btn-twitter.jpg) center center no-repeat;color:transparent!important;}
 .dt-showcase .detail .vehicle-info .opt-buttons a.button-test-drive{width:132px;height:39px;background:transparent url(/wp-content/uploads/btn-book-test-drive.jpg) center center no-repeat;color:transparent!important;}
@@ -223,7 +223,6 @@ td#footer a:hover{color:#2db34a ;font-weight:bold;text-decoration:none;}
 
 /* Showcase */
 .showcase-flyout .showcase-pane .vehicle .trims{display:none;position:absolute;top:5px;min-width:150px!important;-webkit-column-count:2;-moz-column-count:2;}
-.dt-showcase .photo-gallery-button{margin-left:180px;margin-top:10px;color:transparent;width:85;height:24;cursor:pointer;border:none;background:url(/wp-content/uploads/IMAGE-GALLERY.jpg) no-repeat top left;}
 
 #quick-find{color:#999;background-color:white;padding:3px 5px 0 5px;font:normal 9pt arial;height:26px;margin-top:10px;border:solid 1px #aaa;-webkit-border-top-left-radius:7px;-moz-border-radius:7px 0 0 0;-webkit-box-shadow:1px 1px 3px #888;}
 #quick-find td img{vertical-align:middle;}
