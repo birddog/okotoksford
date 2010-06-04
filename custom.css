@@ -555,7 +555,7 @@ ul#steps li {
 }
 #tradeEstimate .next, #tradeEstimate .prev ,
 .btnsubmit{
-	background-color:rgba(45, 179, 74, 0.7);
+	background-color:rgba(45, 179, 74, 1.0);
 	color:#fff;
 	display:block;
 	float:left;
@@ -568,7 +568,7 @@ ul#steps li {
 }
 #tradeEstimate .next:hover, #tradeEstimate .prev:hover ,
 .btnsubmit:hover, .btnsubmit:focus{
-	background-color:rgba(45, 179, 74, 1.0);
+	background-color:rgba(45, 179, 74, 0.7);
 }
 /*.wrap{float:left;}
 .form-item{margin:0 0 5px 10px;clear:both;}
