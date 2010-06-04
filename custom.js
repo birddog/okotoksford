@@ -500,9 +500,9 @@ jQuery(function($) {
           var diff = ulWidth - thisOffset.left;
 
           if (diff >= 100){
-            $(this).find(".trims").stop().addClass('pright').show().css({left: '120px'});
+            $(this).find(".trims").css({'z-index': 11 }).stop().addClass('pright').show().css({left: '120px'});
           } else {
-            $(this).find(".trims").stop().addClass('pleft').show().css({right: '70px'});
+            $(this).find(".trims").css({'z-index': 11 }).stop().addClass('pleft').show().css({right: '70px'});
           }
 
     },function() {
