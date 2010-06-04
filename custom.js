@@ -489,33 +489,33 @@ jQuery(function($) {
 	
 /* QUICKFIND SHOWCASE */	
  if($("#slideout-showcase").length){
-    $("#slideout-showcase .vehicle").hover(function (e) {
-		$(this).parent().append('<div id="jquery-overlay"></div>');
-		$('#jquery-overlay').css({position:'absolute',cursor:'pointer',zIndex:200,background:'black',opacity:0.85,width:$('#slideout-showcase .showcase-pane').width(),height:$('#slideout-showcase .showcase-pane').height()});
-		
-		$(this).css({'z-index': 210 }).find("img").stop().animate({
-																width: '175px', 
-																height: '120px',
-															   },{duration: 75});
-		
-		var ulWidth = $(this).parent().width();
-		var thisOffset  = $(this).offset();
-		var diff = ulWidth - thisOffset.left;
-		
-		if (diff >= 100){
-			$(this).find(".trims").css({'z-index': 211 }).stop().addClass('pright').show().css({left: '120px'});
-		} else {
-			$(this).find(".trims").css({'z-index': 211 }).stop().addClass('pleft').show().css({right: '70px'});
-		}
-
-    },function() {
-		$(this).parent().find("#jquery-overlay").remove();
-          $(this).css({'z-index': 0}).find("img").stop().animate({
-																	width: '130px', 
-																	height:'80px'
-																 },{duration: 75});
-          $(this).find('.trims').hide();
-    });
+  //  $("#slideout-showcase .vehicle").hover(function (e) {
+//		$(this).parent().append('<div id="jquery-overlay"></div>');
+//		$('#jquery-overlay').css({position:'absolute',cursor:'pointer',zIndex:200,background:'black',opacity:0.85,width:$('#slideout-showcase .showcase-pane').width(),height:$('#slideout-showcase .showcase-pane').height()});
+//		
+//		$(this).css({'z-index': 210 }).find("img").stop().animate({
+//																width: '175px', 
+//																height: '120px',
+//															   },{duration: 75});
+//		
+//		var ulWidth = $(this).parent().width();
+//		var thisOffset  = $(this).offset();
+//		var diff = ulWidth - thisOffset.left;
+//		
+//		if (diff >= 100){
+//			$(this).find(".trims").css({'z-index': 211 }).stop().addClass('pright').show().css({left: '120px'});
+//		} else {
+//			$(this).find(".trims").css({'z-index': 211 }).stop().addClass('pleft').show().css({right: '70px'});
+//		}
+//
+//    },function() {
+//		$(this).parent().find("#jquery-overlay").remove();
+//          $(this).css({'z-index': 0}).find("img").stop().animate({
+//																	width: '130px', 
+//																	height:'80px'
+//																 },{duration: 75});
+//          $(this).find('.trims').hide();
+//    });
   }
 
 
