@@ -247,6 +247,7 @@ td#footer a:hover{color:#2db34a ;font-weight:bold;text-decoration:none;}
 	left:0;
 	top:0;
 }
+#slideout-showcase .vehicle .trim {position:absolute;bottom:0;}
 /**************************************
 * Quick find Widget
 **************************************/
