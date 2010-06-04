@@ -509,6 +509,7 @@ jQuery(function($) {
 		}
 
     },function() {
+		$(this).parent().find("#jquery-overlay").remove();
           $(this).css({'z-index': 0}).find("img").stop().animate({
 																	width: '130px', 
 																	height:'80px'
