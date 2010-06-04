@@ -440,7 +440,7 @@ input[type="checkbox"]{font-size:11px;background-color:#fff;border:1px solid #ca
 .form .form-group br {
 	display:none!important;	
 }
-.form .form-group p span {position:inherit;}
+.form span.wpcf7-form-control-wrap {position:inherit;}
 
 .form label {
 	display:inline-block;
