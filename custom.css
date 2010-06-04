@@ -459,10 +459,11 @@ input[type="checkbox"]{font-size:11px;background-color:#fff;border:1px solid #ca
 
 .form select {width:143px;}
 .form  input, select {font-size:11px;vertical-align:middle;}
-
-.contactusSmall textarea {font-size:11px;padding:2px;margin:0;width:300px;}
+.form textarea {font-size:11px;padding:2px;margin:0;}
+.contactusSmall textarea {width:300px;}
 .preownedtestdrive textarea, .newtestdrive textarea,
-.contactus textarea, .partsRequest textarea  {font-size:11px;padding:2px;margin:0;width:600px;}
+.contactus textarea, . {width:600px;}
+.partsRequest textarea { width:705px;}
 
 /* form validation */
 span.wpcf7-not-valid-tip {
