@@ -490,6 +490,7 @@ jQuery(function($) {
 /* QUICKFIND SHOWCASE */	
  if($("#slideout-showcase").length){
     $("#slideout-showcase .vehicle").hover(function (e) {
+		$(this).addClass('hover');
 		$(this).parent().append('<div id="jquery-overlay"></div>');
 		$('#jquery-overlay').css({zIndex:200,background:'black',opacity:0.85,width:$(this).width(),height:$(this).height()});
 		
