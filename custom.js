@@ -497,7 +497,7 @@ jQuery(function($) {
 		$(this).css({'z-index': 210 }).find("img").stop().animate({
 																width: '175px', 
 																height: '120px',
-															   },{duration: 100});
+															   },{duration: 75});
 		
 		var ulWidth = $(this).parent().width();
 		var thisOffset  = $(this).offset();
@@ -514,7 +514,7 @@ jQuery(function($) {
           $(this).css({'z-index': 0}).find("img").stop().animate({
 																	width: '130px', 
 																	height:'80px'
-																 },{duration: 100});
+																 },{duration: 75});
           $(this).find('.trims').hide();
     });
   }
