@@ -491,7 +491,7 @@ jQuery(function($) {
  if($("#slideout-showcase").length){
     $("#slideout-showcase .vehicle").hover(function (e) {
 		$(this).parent().append('<div id="jquery-overlay"></div>');
-		$('#jquery-overlay').css({zIndex:200,background:'#222',opacity:0.85,height:$(this).height()}).fadeIn();
+		$('#jquery-overlay').css({zIndex:200,background:'black',opacity:0.85,width:$(this).width(),height:$(this).height()});
 		
 		$(this).css({'z-index': 210 }).find("img").stop().animate({
 																width: '175px', 
