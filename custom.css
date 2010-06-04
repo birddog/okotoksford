@@ -239,7 +239,7 @@ td#footer a:hover{color:#2db34a ;font-weight:bold;text-decoration:none;}
 #slideout-showcase .vehicle {
 	position:relative;
 }
-#slideout-showcase .vehicle {
+#slideout-showcase .vehicle .image img{
 	position: absolute;
 	left: 0; top: 0;
 }
