@@ -486,9 +486,18 @@ jQuery(function($) {
 			return false;
 		});
 	}
+	
+/* QUICKFIND SHOWCASE */	
  if($("#slideout-showcase").length){
     $("#slideout-showcase .vehicle").hover(function (e) {
-          $(this).css({'z-index': 10 }).find('img').stop().animate({width: '175px', height: '120px'},{duration: 100});
+          $(this).css({'z-index': 10 }).find('img').stop().animate({
+																	width: '175px', 
+																	height: '120px',
+																	marginTop: '-165px', 
+																	marginLeft: '-103px',									   
+																	top: '50%',
+																	left: '50%',
+																   },{duration: 100});
 
           var ulWidth = $(this).parent().width();
           var thisOffset  = $(this).offset();
@@ -501,7 +510,7 @@ jQuery(function($) {
           }
 
     },function() {
-          $(this).css({'z-index': 0}).find('img').removeClass("hover").stop().animate({width: '155px', height:'94px'},{duration: 100});
+          $(this).css({'z-index': 0}).find('img').stop().animate({width: '130px', height:'80px'},{duration: 100});
           $(this).find('.trims').hide();
     });
   }

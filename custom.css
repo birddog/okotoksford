@@ -235,6 +235,14 @@ td#footer a:hover{color:#2db34a ;font-weight:bold;text-decoration:none;}
 .bird_dog .listings .vehicles .vehicle .vehicle-desc .drive_train,
 .bird_dog .listings .vehicles .vehicle .vehicle-desc .trim_code{display:none;}
 
+/* QUICK FIND SHOW CASE */
+#slideout-showcase .vehicle {
+	position:relative;
+}
+#slideout-showcase .vehicle {
+	position: absolute;
+	left: 0; top: 0;
+}
 /**************************************
 * Quick find Widget
 **************************************/
