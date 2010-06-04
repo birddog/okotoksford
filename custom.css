@@ -236,13 +236,12 @@ td#footer a:hover{color:#2db34a ;font-weight:bold;text-decoration:none;}
 .bird_dog .listings .vehicles .vehicle .vehicle-desc .trim_code{display:none;}
 
 /* QUICK FIND SHOW CASE */
+.showcase-pane{position:relative;}
 #slideout-showcase .vehicle {
-	position:relative;
-}
-#slideout-showcase .vehicle .image img{
 	position: absolute;
 	left: 0; top: 0;
 }
+#slideout-showcase .vehicle .image img{}
 /**************************************
 * Quick find Widget
 **************************************/
