@@ -241,6 +241,7 @@ td#footer a:hover{color:#2db34a ;font-weight:bold;text-decoration:none;}
 	position: relative;
 	height:94px;
 	width:155px;
+	background-color:#fff;
 }
 #slideout-showcase .vehicle .image img{
 	position:absolute;
