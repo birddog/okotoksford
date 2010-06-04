@@ -440,6 +440,8 @@ input[type="checkbox"]{font-size:11px;background-color:#fff;border:1px solid #ca
 .form .form-group br {
 	display:none!important;	
 }
+.form .form-group p span {position:inherit;}
+
 .form label {
 	display:inline-block;
 	width:	150px;
@@ -546,7 +548,8 @@ ul#steps li {
 #tradeEstimate .next {
 	float:right!important;
 }
-#tradeEstimate .next, #tradeEstimate .prev {
+#tradeEstimate .next, #tradeEstimate .prev ,
+.btnsubmit{
 	background-color:rgba(121, 0, 0, 0.7);
 	color:#FFFFFF;
 	display:block;
@@ -558,16 +561,9 @@ ul#steps li {
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;		
 }
-.btnsubmit {
-	background-color:rgba(121, 0, 0, 0.7);
-	color:#FFFFFF;
-	display:block;
-	font-size:12px;
-	padding:5px;
-	margin-top:5px;
-	border:1px solid #ddd;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;	
+#tradeEstimate .next:hover, #tradeEstimate .prev:hover ,
+.btnsubmit:hover, .btnsubmit:focus{
+	background-color:rgba(45, 179, 74, 1.0);
 }
 /*.wrap{float:left;}
 .form-item{margin:0 0 5px 10px;clear:both;}
