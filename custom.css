@@ -459,7 +459,7 @@ input[type="checkbox"]{font-size:11px;background-color:#fff;border:1px solid #ca
 .form select {width:143px;}
 .form  input, select {font-size:11px;vertical-align:middle;}
 
-.contactusSmall textarea {width:300px;}
+.contactusSmall textarea {font-size:11px;padding:2px;margin:0;width:300px;}
 .preownedtestdrive, .newtestdrive,
 .contactus textarea {font-size:11px;padding:2px;margin:0;width:600px;}
 
