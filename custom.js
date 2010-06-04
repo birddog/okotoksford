@@ -490,7 +490,7 @@ jQuery(function($) {
 /* QUICKFIND SHOWCASE */	
  if($("#slideout-showcase").length){
     $("#slideout-showcase .vehicle").hover(function (e) {
-          $(this).css({'z-index': 10 }).stop().animate({
+          $(this).css({'z-index': 10 }).find("img").stop().animate({
 																	width: '175px', 
 																	height: '120px',
 																   },{duration: 100});
@@ -506,7 +506,7 @@ jQuery(function($) {
           }
 
     },function() {
-          $(this).css({'z-index': 0}).stop().animate({
+          $(this).css({'z-index': 0}).find("img").stop().animate({
 																	width: '130px', 
 																	height:'80px'
 																 },{duration: 100});
