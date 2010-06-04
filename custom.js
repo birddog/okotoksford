@@ -493,10 +493,6 @@ jQuery(function($) {
           $(this).css({'z-index': 10 }).find('img').stop().animate({
 																	width: '175px', 
 																	height: '120px',
-																	marginTop: '-165px', 
-																	marginLeft: '-103px',									   
-																	top: '50%',
-																	left: '50%'
 																   },{duration: 100});
 
           var ulWidth = $(this).parent().width();
@@ -511,10 +507,6 @@ jQuery(function($) {
 
     },function() {
           $(this).css({'z-index': 0}).find('img').stop().animate({
-																	marginTop: '0', /* Set alignment back to default */
-																	marginLeft: '0',
-																	top: '0',
-																	left: '0',
 																	width: '130px', 
 																	height:'80px'
 																 },{duration: 100});
