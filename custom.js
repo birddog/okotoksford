@@ -488,7 +488,7 @@ jQuery(function($) {
 	}
  if($("#slideout-showcase").length){
 //    $("#slideout-showcase .vehicle").hover(function (e) {
-//          $(this).css({'z-index': 10 }).find('img').addClass("hover").stop().animate({width: '175px'},{duration: 100});
+//          $(this).css({'z-index': 10 }).addClass("hover").stop().animate({width: '175px'},{duration: 100});
 //
 //          var ulWidth = $(this).parent().width();
 //          var thisOffset  = $(this).offset();
