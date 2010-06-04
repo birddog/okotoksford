@@ -449,6 +449,7 @@ input[type="checkbox"]{font-size:11px;background-color:#fff;border:1px solid #ca
 	font-weight:bold;
 	font-size:10px;
 	vertical-align:middle;
+	color:#999;
 }
 .collisionCenter label {width:110px;}
 .contactus label {width:100px;}
