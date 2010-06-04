@@ -486,6 +486,26 @@ jQuery(function($) {
 			return false;
 		});
 	}
+ if($("#slideout-showcase").length){
+    $("#slideout-showcase .vehicle").hover(function (e) {
+          $(this).css({'z-index': 10 }).find('img').addClass("hover").stop().animate({width: '175px'},{duration: 100});
+
+          var ulWidth = $(this).parent().width();
+          var thisOffset  = $(this).offset();
+          var diff = ulWidth - thisOffset.left;
+
+          if (diff >= 100){
+            $(this).find(".trims").stop().addClass('pright').show().css({left: '120px'});
+          } else {
+            $(this).find(".trims").stop().addClass('pleft').show().css({right: '70px'});
+          }
+
+    },function() {
+          $(this).css({'z-index': 0}).find('img').removeClass("hover").stop().animate({width: '80px'},{duration: 100});
+          $(this).find('.trims').hide();
+    });
+  }
+
 
   /* Detail page Lightbox */
   if ($('.detail .photos a.photo').length) {
