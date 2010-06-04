@@ -490,20 +490,23 @@ jQuery(function($) {
 /* QUICKFIND SHOWCASE */	
  if($("#slideout-showcase").length){
     $("#slideout-showcase .vehicle").hover(function (e) {
-          $(this).css({'z-index': 10 }).find("img").stop().animate({
-																	width: '175px', 
-																	height: '120px',
-																   },{duration: 100});
-
-          var ulWidth = $(this).parent().width();
-          var thisOffset  = $(this).offset();
-          var diff = ulWidth - thisOffset.left;
-
-          if (diff >= 100){
-            $(this).find(".trims").css({'z-index': 11 }).stop().addClass('pright').show().css({left: '120px'});
-          } else {
-            $(this).find(".trims").css({'z-index': 11 }).stop().addClass('pleft').show().css({right: '70px'});
-          }
+		$(this).parent().append('<div id="jquery-overlay"></div>');
+		$('#jquery-overlay').css({zIndex:200,background:'black',opacity:0.85,height:$(this).height()}).fadeIn();
+		
+		$(this).css({'z-index': 210 }).find("img").stop().animate({
+																width: '175px', 
+																height: '120px',
+															   },{duration: 100});
+		
+		var ulWidth = $(this).parent().width();
+		var thisOffset  = $(this).offset();
+		var diff = ulWidth - thisOffset.left;
+		
+		if (diff >= 100){
+			$(this).find(".trims").css({'z-index': 211 }).stop().addClass('pright').show().css({left: '120px'});
+		} else {
+			$(this).find(".trims").css({'z-index': 211 }).stop().addClass('pleft').show().css({right: '70px'});
+		}
 
     },function() {
           $(this).css({'z-index': 0}).find("img").stop().animate({
