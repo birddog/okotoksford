@@ -460,8 +460,8 @@ input[type="checkbox"]{font-size:11px;background-color:#fff;border:1px solid #ca
 .form  input, select {font-size:11px;vertical-align:middle;}
 
 .contactusSmall textarea {font-size:11px;padding:2px;margin:0;width:300px;}
-.preownedtestdrive, .newtestdrive,
-.contactus textarea {font-size:11px;padding:2px;margin:0;width:600px;}
+.preownedtestdrive textarea, .newtestdrive textarea,
+.contactus  {font-size:11px;padding:2px;margin:0;width:600px;}
 
 /* form validation */
 span.wpcf7-not-valid-tip {
