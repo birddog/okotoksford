@@ -312,7 +312,7 @@ This affected the .trims a  - Chad P
 	top:0!important;
 	left:30px;
 	text-align:left!important;
-	padding:2px 10px!important;
+	padding:0 10px!important;
 	-webkit-border-radius:5px;
 	-moz-border-radius:5px;
 	-moz-column-count:2;
@@ -323,7 +323,7 @@ This affected the .trims a  - Chad P
 	font-size:10px!important;	
 	color:#666;
 	background-image:url("/wp-content/uploads/green_arrow_scroller.png");
-	background-position:left 3px;
+	background-position:left 5px;
 	background-repeat:no-repeat;
 	padding:2px 0 0 8px;
 }
