@@ -489,12 +489,14 @@ jQuery(function($) {
 	
 /* QUICKFIND SHOWCASE */	
  if($("#slideout-showcase").length){
+	 $('#slideout-showcase .showcase-pane').css({overflow:hidden});
+	 
     $("#slideout-showcase .vehicle").hover(function (e) {
 		var width = $('#slideout-showcase .showcase-pane').width() + 100;													 ;
 		var height = $('#slideout-showcase .showcase-pane').height() + 100;
-													 
+		
 		$(this).parent().append('<div id="jquery-overlay"></div>');
-		$('#jquery-overlay').css({position:'absolute',cursor:'pointer',zIndex:200,background:'#ccc',opacity:0.65,width:width,height:height});
+		$('#jquery-overlay').css({position:'absolute',cursor:'pointer',zIndex:200,background:'#eee',opacity:0.65,width:width,height:height});
 		
 		$(this).css({'z-index': 210 }).find("img").stop().animate({
 																width: '175px', 
