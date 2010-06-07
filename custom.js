@@ -499,7 +499,7 @@ jQuery(function($) {
 		$('#jquery-overlay').css({position:'absolute',cursor:'pointer',zIndex:200,background:'#eee',opacity:0.65,width:width,height:height});
 		
 		
-		$(this).css({'z-index': 210,position:'absolute'}).stop().animate({
+		$(this).css({'z-index': 210}).stop().animate({
 																width: '175px', 
 																height: '120px',
 															   },{duration: 75},function() {
