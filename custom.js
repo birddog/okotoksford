@@ -490,17 +490,23 @@ jQuery(function($) {
 /* QUICKFIND SHOWCASE */	
  if($("#slideout-showcase").length){
 	$('#slideout-showcase .showcase-pane').css({overflow:'hidden'});
-	var panewidth = $('#slideout-showcase .showcase-pane').width() + 100;													 ;
-	var paneheight = $('#slideout-showcase .showcase-pane').height() + 100;
+	var pane = $('#slideout-showcase .showcase-pane');
+	var panewidth = pane.width() + 100;													 ;
+	var paneheight = pane.height() + 100;
 	var vehicleImg = $("#slideout-showcase .vehicle img");
 	var vehicleImgW = vehicleImg.width();
 	var vehicleImgH= vehicleImg.height();
+	
+	pane.css({ position: 'relative' });
+	$("#slideout-showcase .vehicle").css({ position: 'absolute', top: 0, left: 0 });
 	
     $("#slideout-showcase .vehicle").hover(function (e) {
 		$(this).parent().append('<div id="jquery-overlay"></div>');
 		$('#jquery-overlay').css({position:'absolute',cursor:'pointer',zIndex:200,background:'#eee',opacity:0.65,width:panewidth,height:paneheight});
 		
 		$(this).css({'z-index': 210}).find("img").stop().animate({
+																top:  ('-'+$(this).size()+'px'), 
+																left: ('-'+$(this).size()+'px'), 																 
 																width: 2*vehicleImgW, 
 																height: 2*vehicleImgH,
 															   },{duration: 75});
@@ -518,9 +524,13 @@ jQuery(function($) {
     },function() {
 		$(this).parent().find("#jquery-overlay").remove();
           $(this).css({'z-index': 0}).find("img").stop().animate({
-																	width: '130px', 
-																	height:'80px'
-																 },{duration: 75});
+																	top:  0, 
+																	left: 0, 																 
+																	width: vehicleImgW, 
+																	height:vehicleImgH
+																 },{duration: 75}, function() {
+																		$(this).parent().css('z-index', 1); 
+																 });
           $(this).find('.trims').hide();
     });
   }
