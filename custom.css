@@ -319,6 +319,7 @@ This affected the .trims a  - Chad P
 	-webkit-column-count:2;	
 	z-index:400;
 	white-space:nowrap;
+	min-width:80px;
 }
 .dt-showcase .trims a, .showcase-slider .trims a, #showcase-flyout .trims a{
 	font-size:10px!important;	
