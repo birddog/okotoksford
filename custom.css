@@ -331,6 +331,7 @@ This affected the .trims a  - Chad P
 .dt-showcase .trims br, .showcase-slider .trims br, #showcase-flyout .trims br {
 	display:none;	
 }
+.showcase-flyout .trims a {display:block;}
 /*
 .showcase-slider .scrollable .item .trims,
 #showcase-flyout .showcase-pane .vehicle .trims{
