@@ -496,17 +496,12 @@ jQuery(function($) {
 	var vehicleImg = $("#slideout-showcase .vehicle img");
 	var vehicleImgW = vehicleImg.width();
 	var vehicleImgH= vehicleImg.height();
-	
-	pane.css({ position: 'relative' });
-	$("#slideout-showcase .vehicle").css({ position: 'absolute', top: 0, left: 0 });
-	
+
     $("#slideout-showcase .vehicle").hover(function (e) {
 		$(this).parent().append('<div id="jquery-overlay"></div>');
 		$('#jquery-overlay').css({position:'absolute',cursor:'pointer',zIndex:200,background:'#eee',opacity:0.65,width:panewidth,height:paneheight});
 		
-		$(this).css({'z-index': 210}).find("img").stop().animate({
-																top:  ('-'+$(this).size()+'px'), 
-																left: ('-'+$(this).size()+'px'), 																 
+		$(this).css({'z-index': 210}).find("img").stop().animate({														 
 																width: 2*vehicleImgW, 
 																height: 2*vehicleImgH,
 															   },{duration: 75});
@@ -523,9 +518,7 @@ jQuery(function($) {
 
     },function() {
 		$(this).parent().find("#jquery-overlay").remove();
-          $(this).css({'z-index': 0}).find("img").stop().animate({
-																	top:  0, 
-																	left: 0, 																 
+          $(this).css({'z-index': 0}).find("img").stop().animate({													 
 																	width: vehicleImgW, 
 																	height:vehicleImgH
 																 },{duration: 75}, function() {
