@@ -501,6 +501,7 @@ jQuery(function($) {
 		$(this).css({'z-index': 210 }).find("img").stop().animate({
 																width: '175px', 
 																height: '120px',
+																margin: '10px'
 															   },{duration: 75});
 		
 		var ulWidth = $(this).parent().width();
