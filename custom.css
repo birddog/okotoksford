@@ -243,15 +243,6 @@ td#footer a:hover{color:#2db34a ;font-weight:bold;text-decoration:none;}
 	width:155px;
 	background-color:#fff;
 }
-#slideout-showcase .vehicle .image img{
-	position:absolute;
-	left:0;
-	top:0;
-}
-#slideout-showcase .vehicle .name {
-	position:absolute;
-	bottom:0;
-}
 #slideout-showcase .vehicle .trim {
 	position:absolute;
 }
