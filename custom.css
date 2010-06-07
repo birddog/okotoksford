@@ -328,6 +328,9 @@ This affected the .trims a  - Chad P
 	background-repeat:no-repeat;
 	padding:2px 0 0 8px;
 }
+.dt-showcase .trims br, .showcase-slider .trims br, #showcase-flyout .trims br {
+	display:none;	
+}
 /*
 .showcase-slider .scrollable .item .trims,
 #showcase-flyout .showcase-pane .vehicle .trims{
