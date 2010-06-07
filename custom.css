@@ -306,7 +306,7 @@ This affected the .trims a  - Chad P
 
 /* trim hover */
 .dt-showcase .trims, .showcase-slider .trims, #showcase-flyout .trims {
-	background:none repeat scroll 0 0 rgba(220,220,220,0.9)!important;
+	background:none repeat scroll 0 0 #ccc!important;
 	border:solid 1px #aaa;
 	position:absolute!important;
 	top:0!important;
@@ -809,7 +809,6 @@ ul.accessoriesWrap li .pleft{padding:10px 30px 20px 10px;}
 #scNav .section.green{border:1px solid #696;}
 #scNav .section.red{border:1px solid #C00;}
 .ddsg-wrapper > div{display:none;}
-.dt-showcase .trims a{background:url("/wp-content/uploads/green_arrow_scroller.png") scroll no-repeat 0 0 transparent;}
 #footercontact{float:right!important;}
 
 /**************************************
