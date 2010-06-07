@@ -491,7 +491,7 @@ jQuery(function($) {
  if($("#slideout-showcase").length){
     $("#slideout-showcase .vehicle").hover(function (e) {
 		$(this).parent().append('<div id="jquery-overlay"></div>');
-		$('#jquery-overlay').css({position:'absolute',cursor:'pointer',zIndex:200,background:'black',opacity:0.85,width:$('#slideout-showcase .showcase-pane').width(),height:$('#slideout-showcase .showcase-pane').height()});
+		$('#jquery-overlay').css({position:'absolute',cursor:'pointer',zIndex:200,background:'black',opacity:0.65,width:$('#slideout-showcase .showcase-pane').width(),height:$('#slideout-showcase .showcase-pane').height()});
 		
 		$(this).css({'z-index': 210 }).find("img").stop().animate({
 																width: '175px', 
