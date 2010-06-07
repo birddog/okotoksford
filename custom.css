@@ -316,7 +316,7 @@ hr.blue{border-bottom:1px solid #2db34a;}
 	-webkit-column-count:2;	
 }
 .dt-showcase .trims a, .showcase-slider .trims a, #showcase-flyout .trims a{
-	font-size:10px;	
+	font-size:10px!important;	
 	color:#666;
 }
 /*
