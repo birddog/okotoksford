@@ -489,19 +489,20 @@ jQuery(function($) {
 	
 /* QUICKFIND SHOWCASE */	
  if($("#slideout-showcase").length){
-	 $('#slideout-showcase .showcase-pane').css({overflow:'hidden'});
-	 
+	$('#slideout-showcase .showcase-pane').css({overflow:'hidden'});
+	var panewidth = $('#slideout-showcase .showcase-pane').width() + 100;													 ;
+	var paneheight = $('#slideout-showcase .showcase-pane').height() + 100;
+	var vehicleImg = $("#slideout-showcase .vehicle img");
+	var vehicleImgW = vehicleImg.width();
+	var vehicleImgH= vehicleImg.height();
+	
     $("#slideout-showcase .vehicle").hover(function (e) {
-		var width = $('#slideout-showcase .showcase-pane').width() + 100;													 ;
-		var height = $('#slideout-showcase .showcase-pane').height() + 100;
-		
 		$(this).parent().append('<div id="jquery-overlay"></div>');
-		$('#jquery-overlay').css({position:'absolute',cursor:'pointer',zIndex:200,background:'#eee',opacity:0.65,width:width,height:height});
-		
+		$('#jquery-overlay').css({position:'absolute',cursor:'pointer',zIndex:200,background:'#eee',opacity:0.65,width:panewidth,height:paneheight});
 		
 		$(this).css({'z-index': 210}).find("img").stop().animate({
-																width: '175px', 
-																height: '120px',
+																width: 2*vehicleImgW, 
+																height: 2*vehicleImgH,
 															   },{duration: 75});
 		
 		var ulWidth = $(this).parent().width();
