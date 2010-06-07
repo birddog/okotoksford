@@ -499,15 +499,10 @@ jQuery(function($) {
 		$('#jquery-overlay').css({position:'absolute',cursor:'pointer',zIndex:200,background:'#eee',opacity:0.65,width:width,height:height});
 		
 		
-		$(this).css({'z-index': 210}).stop().animate({
+		$(this).css({'z-index': 210}).find("img").stop().animate({
 																width: '175px', 
 																height: '120px',
-															   },{duration: 75},function() {
-															   		$(this).find('img').animate({
-																	width: '165px', 
-																	height: '115px',
-																	},{duration: 75});
-															   });
+															   },{duration: 75});
 		
 		var ulWidth = $(this).parent().width();
 		var thisOffset  = $(this).offset();
