@@ -489,7 +489,7 @@ jQuery(function($) {
 	
 /* QUICKFIND SHOWCASE */	
  if($("#slideout-showcase").length){
-	$("#slideout-showcase .vehicle").hoverpulse();
+	$("#slideout-showcase .vehicle img").hoverpulse();
   }
 
 
