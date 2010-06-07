@@ -489,7 +489,7 @@ jQuery(function($) {
 	
 /* QUICKFIND SHOWCASE */	
  if($("#slideout-showcase").length){
-	 $('#slideout-showcase .showcase-pane').css({overflow:hidden});
+	 $('#slideout-showcase .showcase-pane').css({overflow:'hidden'});
 	 
     $("#slideout-showcase .vehicle").hover(function (e) {
 		var width = $('#slideout-showcase .showcase-pane').width() + 100;													 ;
@@ -501,7 +501,6 @@ jQuery(function($) {
 		$(this).css({'z-index': 210 }).find("img").stop().animate({
 																width: '175px', 
 																height: '120px',
-																margin: '10px'
 															   },{duration: 75});
 		
 		var ulWidth = $(this).parent().width();
