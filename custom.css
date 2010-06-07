@@ -793,7 +793,7 @@ ul.accessoriesWrap li .pleft{padding:10px 30px 20px 10px;}
 .bird_dog .listings .search .quick-combo-search .combo .options a:hover{color:#2db34a;}
 .bird_dog .detail .thumbnails .next{background:url(/wp-content/uploads/okotoks-thumbnails-end.jpg) no-repeat scroll 0 0 transparent!important;}
 .bird_dog .detail .thumbnails .prev{background:url(/wp-content/uploads/okotoks-thumbnails-begin.jpg) no-repeat scroll 0 0 transparent!important;}
-.bird_dog .detail .go-button {width:23px;height:21px;background: #222 url(http://www.woodridgeford.com/wp-content/uploads/GoButton.png) no-repeat top left;}
+input.go-button {width:23px;height:21px;background: #222 url(/wp-content/uploads/GoButton.png) no-repeat top left;}
 
 /**********************************************/
 /* Service Contract
