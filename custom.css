@@ -318,6 +318,10 @@ hr.blue{border-bottom:1px solid #2db34a;}
 .dt-showcase .trims a, .showcase-slider .trims a, #showcase-flyout .trims a{
 	font-size:10px!important;	
 	color:#666;
+	background-image:url("/wp-content/uploads/green_arrow_scroller.png");
+	background-position:left 3px;
+	background-repeat:no-repeat;
+	padding:2px 0 0 8px;
 }
 /*
 .showcase-slider .scrollable .item .trims,
