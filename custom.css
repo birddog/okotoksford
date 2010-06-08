@@ -746,9 +746,10 @@ body.page-id-43 .dt-showcase .detail .showcase-tabs{left:-1px;}
 	background-color:#fff;
 	z-index:500;
 	padding:5px;
-	box-shadow: 5px 5px 2px #ccc;
-	-moz-box-shadow: 5px 5px 2px #ccc;
-	-webkit-box-shadow: 5px 5px 2px #ccc;
+	width:200px;
+	box-shadow: 2px 2px 2px #222;
+	-moz-box-shadow: 2px 2px 2px #222;
+	-webkit-box-shadow: 2px 2px 2px #222;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border: 1px solid #555;
