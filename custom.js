@@ -144,7 +144,7 @@ jQuery(function($) {
 		var location = $(this).position();
 		
         current.children('p.bio-text').css({
-										   top: location.top + 15, 
+										   top: location.top + 12, 
 										   left: location.left
 										   }).toggle();
         return false;
