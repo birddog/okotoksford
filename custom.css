@@ -741,10 +741,17 @@ body.page-id-43 .dt-showcase .detail .showcase-tabs{left:-1px;}
 .staff .person .bio-text{
 	display:none;
 	position:absolute;
-	font-size:9px;
-	color:#222;
+	font-size:11px;
+	color:#999;
 	background-color:#fff;
 	z-index:500;
+	padding:5px;
+	box-shadow: 5px 5px 2px #ccc;
+	-moz-box-shadow: 5px 5px 2px #ccc;
+	-webkit-box-shadow: 5px 5px 2px #ccc;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid #555;
 }
 .mmf-response-output.mmf-mail-sent-ng,
 .mmf-response-output.mmf-mail-sent-ok{background:#090;color:white;}
