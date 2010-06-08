@@ -143,7 +143,10 @@ jQuery(function($) {
       current.children().children('.toggle-bio').click(function(){
 		var location = $(this).position();
 		
-        current.children('p.bio-text').css({top: location.top, left: location.left}).toggle();
+        current.children('p.bio-text').css({
+										   top: location.top, 
+										   left: location.left
+										   }).toggle();
         return false;
       });
     });

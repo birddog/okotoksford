@@ -742,10 +742,9 @@ body.page-id-43 .dt-showcase .detail .showcase-tabs{left:-1px;}
 	display:none;
 	position:absolute;
 	font-size:9px;
-	color:#2db34a;
-	background:url(http://www.woodridgeford.com/wp-content/uploads/2010/03/bioBg.jpg) no-repeat;
-	margin-top:18px;
-	padding-top:4px;
+	color:#222;
+	background-color:#fff;
+	z-index:500;
 }
 .mmf-response-output.mmf-mail-sent-ng,
 .mmf-response-output.mmf-mail-sent-ok{background:#090;color:white;}
