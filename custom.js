@@ -97,6 +97,8 @@ jQuery(function($) {
       $(this).attr('value', '').css('color', '#999999');
     }
   });
+  
+  
 
   /* Quick Find bar links */
   $('#quick-find a.jump-to-tab').click(function(){
@@ -291,14 +293,6 @@ jQuery(function($) {
 			});;
 		  }
       }
-    }
-  }
-
-  function checkPos(num){
-    if(parseInt(num) > 0){
-      return true;
-    } else {
-      return false;
     }
   }
 

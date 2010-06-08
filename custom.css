@@ -305,20 +305,20 @@ This affected the .trims a  - Chad P
 /* trim hover */
 .dt-showcase .trims, .showcase-slider .trims, #showcase-flyout .trims {
 	display:none;
-	background:none repeat scroll 0 0 #ccc!important;
-	border:solid 1px #aaa;
 	position:absolute!important;
 	top:0!important;
-	left:70px;
+	left:70px;	
+	background:none repeat scroll 0 0 #ccc!important;
+	border:solid 1px #aaa;
 	text-align:left!important;
 	padding:0 10px!important;
+	z-index:400;
+	white-space:nowrap;
+	width:300px;
 	-webkit-border-radius:5px;
 	-moz-border-radius:5px;
 	-moz-column-count:2;
 	-webkit-column-count:2;	
-	z-index:400;
-	white-space:nowrap;
-	width:300px;
 }
 .dt-showcase .trims a, .showcase-slider .trims a, #showcase-flyout .trims a{
 	display:block;
@@ -723,7 +723,14 @@ body.page-id-43 .dt-showcase .detail .showcase-tabs{left:-1px;}
 **************************************/
 #post-3166 .staff{padding-bottom:20px;}
 .staff{width:720px;}
-.staff .person{float:left;width:230px;height:400px;font:normal 11px arial;color:#999;background:url(http://www.woodridgeford.com/wp-content/uploads/2010/03/bioBg2.jpg) no-repeat;margin:5px;}
+.staff .person{
+	float:left;
+	width:230px;
+	font:normal 11px arial;
+	color:#999;
+	background:url(http://www.woodridgeford.com/wp-content/uploads/2010/03/bioBg2.jpg) no-repeat;
+	margin:5px;
+}
 .staff .person .photo{float:left;margin-right:10px;padding:0;}
 .staff .person .name{font-size:14px;}
 .staff .person .title{font-size:11px;}
