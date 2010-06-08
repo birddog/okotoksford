@@ -304,6 +304,7 @@ This affected the .trims a  - Chad P
 
 /* trim hover */
 .dt-showcase .trims, .showcase-slider .trims, #showcase-flyout .trims {
+	display:none;
 	background:none repeat scroll 0 0 #ccc!important;
 	border:solid 1px #aaa;
 	position:absolute!important;
