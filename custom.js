@@ -149,6 +149,9 @@ jQuery(function($) {
     $('body #jquery-overlay').remove();
     $('#emailWindow').hide();
   });
+  $(".page-id-752 .close").click(function() {
+    $(this).parent().hide();
+  });  
 
   /***
    * New Vehicle flyout slider
@@ -214,9 +217,7 @@ jQuery(function($) {
     }
   });
 
-  $(".close").click(function() {
-    $(this).parent().hide();
-  });
+
 
   /* quick find test drive */
   $(".frm-btn-new-test-drive").click(function(){
