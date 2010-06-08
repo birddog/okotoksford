@@ -145,7 +145,7 @@ jQuery(function($) {
     });
   }
 
-  $('#emailWindow #close-window').click(function(){
+  $('#emailWindow .close').click(function(){
     $('body #jquery-overlay').remove();
     $('#emailWindow').hide();
   });
@@ -486,12 +486,6 @@ jQuery(function($) {
 			return false;
 		});
 	}
-	
-/* QUICKFIND SHOWCASE */	
-if($("#slideout-showcase").length){
-
-}
-
 
   /* Detail page Lightbox */
   if ($('.detail .photos a.photo').length) {
