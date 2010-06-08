@@ -724,12 +724,13 @@ body.page-id-43 .dt-showcase .detail .showcase-tabs{left:-1px;}
 #post-3166 .staff{padding-bottom:20px;}
 .staff{width:720px;}
 .staff .person{
+	position:relative;
 	float:left;
 	width:230px;
 	font:normal 11px arial;
 	color:#999;
 	background:url(http://www.woodridgeford.com/wp-content/uploads/2010/03/bioBg2.jpg) no-repeat;
-	margin:5px;
+	margin:5px 5px 10px;
 }
 .staff .person .photo{float:left;margin-right:10px;padding:0;}
 .staff .person .name{font-size:14px;}
@@ -737,7 +738,15 @@ body.page-id-43 .dt-showcase .detail .showcase-tabs{left:-1px;}
 .staff .person .phone{font-size:13px;color:#2db34a;}
 .staff .person .email{display:block;padding:15px 0;}
 .staff .person .toggle{display:block;}
-.staff .person .bio-text{display:none;clear:both;font-size:9px;color:#2db34a;background:url(http://www.woodridgeford.com/wp-content/uploads/2010/03/bioBg.jpg) no-repeat;margin-top:18px;padding-top:4px;}
+.staff .person .bio-text{
+	display:none;
+	position:absolute;
+	font-size:9px;
+	color:#2db34a;
+	background:url(http://www.woodridgeford.com/wp-content/uploads/2010/03/bioBg.jpg) no-repeat;
+	margin-top:18px;
+	padding-top:4px;
+}
 .mmf-response-output.mmf-mail-sent-ng,
 .mmf-response-output.mmf-mail-sent-ok{background:#090;color:white;}
 #boxBio{width:720px;}
