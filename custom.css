@@ -332,7 +332,6 @@ This affected the .trims a  - Chad P
 .dt-showcase .trims br, .showcase-slider .trims br, #showcase-flyout .trims br {
 	display:none;	
 }
-.showcase-flyout .trims a {display:block;}
 /*
 .showcase-slider .scrollable .item .trims,
 #showcase-flyout .showcase-pane .vehicle .trims{
@@ -799,7 +798,7 @@ ul.accessoriesWrap li .pleft{padding:10px 30px 20px 10px;}
 .bird_dog .listings .search .quick-combo-search .combo .options a:hover{color:#2db34a;}
 .bird_dog .detail .thumbnails .next{background:url(/wp-content/uploads/okotoks-thumbnails-end.jpg) no-repeat scroll 0 0 transparent!important;}
 .bird_dog .detail .thumbnails .prev{background:url(/wp-content/uploads/okotoks-thumbnails-begin.jpg) no-repeat scroll 0 0 transparent!important;}
-input.go-button {width:23px;height:21px;background: #222 url(/wp-content/uploads/GoButton.png) no-repeat top left;border:none;color:transparent;text-indent:-100px;}
+input.go-button {width:23px;height:21px;background: transparent url(/wp-content/uploads/GoButton.png) no-repeat top left;border:none;color:transparent;text-indent:-100px;}
 
 /**********************************************/
 /* Service Contract
