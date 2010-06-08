@@ -322,6 +322,7 @@ This affected the .trims a  - Chad P
 	width:300px;
 }
 .dt-showcase .trims a, .showcase-slider .trims a, #showcase-flyout .trims a{
+	display:block;
 	font-size:10px!important;	
 	color:#666!important;
 	background-image:url("/wp-content/uploads/green_arrow_scroller.png");
