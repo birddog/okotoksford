@@ -849,7 +849,7 @@ input.go-button {width:23px;height:21px;background: transparent url(/wp-content/
 /**************************************
 * Collision center tweaks
 **************************************/
-#site-content{position:relative;overflow:hidden;}
+#site-content{position:relative;}
 #site-content .ribbon{background:url(/wp-content/uploads/collision-ribbon.png) scroll 0 0 no-repeat transparent;width:384px;height:188px;position:absolute;right:-13px;top:-10px;}
 #site-content .collisionform{display:none;position:absolute;width:400px;}
 .close{position:absolute;right:-10px;top:-5px;cursor:pointer;cursor:hand;display:block;height:25px;width:25px;overflow:hidden;background-image:url(/wp-content/uploads/2010/03/vidClose.png);outline:0;z-index:225;}
