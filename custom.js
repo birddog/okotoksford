@@ -184,7 +184,7 @@ jQuery(function($) {
 		},
         function(){ 
 			$('body').find('.activeTrim').appendTo(this).removeClass('test');
-			$(this).children('.activeTrim').hide(); 
+			$(this).children('.trims').hide(); 
 		}
       );
       $('#showcase-flyout .showcase-tabs').tabs('#showcase-flyout > .showcase-pane');
