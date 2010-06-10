@@ -179,11 +179,11 @@ jQuery(function($) {
         function(){ 
 			var position = $(this).position();
 			$(this).children('.trims').appendTo('body');
-			$('body').find('.trims').css({ top: position.top + 'px', left: position.left + 'px'})
-			$('body').find('.trims').show(); 
+			$('body').find('.trims:not(.vehicle .trims)').css({ top: position.top + 'px', left: position.left + 'px'})
+			$('body').find('.trims:not(.vehicle .trims)').show(); 
 		},
         function(){ 
-			$('body').find('.trims').appendTo(this);
+			$('body').find('.trims:not(.vehicle .trims)').appendTo(this);
 			$(this).children('.trims').hide(); 
 		}
       );
