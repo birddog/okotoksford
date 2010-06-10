@@ -178,12 +178,12 @@ jQuery(function($) {
       $('#showcase-flyout .showcase-pane .vehicle').hover(
         function(){ 
 			var position = $(this).position();
-			$(this).children('.trims').appendTo('body');
-			$('body').find('.trims:not(.vehicle .trims)').css({ top: position.top + 'px', left: position.left + 'px'})
-			$('body').find('.trims:not(.vehicle .trims)').show(); 
+			$(this).children('.trims').appendTo('body').addClass('test');
+			$('body').find('.test').css({ top: position.top + 'px', left: position.left + 'px'})
+			$('body').find('.test').show(); 
 		},
         function(){ 
-			$('body').find('.trims:not(.vehicle .trims)').appendTo(this);
+			$('body').find('.test').appendTo(this).removeClass('test');
 			$(this).children('.trims').hide(); 
 		}
       );
