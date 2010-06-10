@@ -176,8 +176,16 @@ jQuery(function($) {
       $('#showcase-flyout .showcase-pane').append('<div class="showcase-next"></div>');
       $('#showcase-flyout .showcase-pane').scrollable({speed:100, size:5, clickable:false, items:'.items', next:'.showcase-next', prev:'.showcase-prev', item:'.vehicle'});
       $('#showcase-flyout .showcase-pane .vehicle').hover(
-        function(){ $(this).children('.trims').show(); },
-        function(){ $(this).children('.trims').hide(); }
+        function(){ 
+			var position = $(this).position();
+			$(this).children('.trims').appendTo('body');
+			$('body').find('.trims').css({ top: position.top + 'px', left: position.left + 'px'})
+			$('body').find('.trims').show(); 
+		},
+        function(){ 
+			$('body').find('.trims').appendTo(this);
+			$(this).children('.trims').hide(); 
+		}
       );
       $('#showcase-flyout .showcase-tabs').tabs('#showcase-flyout > .showcase-pane');
     }
