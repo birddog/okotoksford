@@ -303,11 +303,8 @@ This affected the .trims a  - Chad P
 
 
 /* trim hover */
-.dt-showcase .trims, .showcase-slider .trims, #showcase-flyout .trims {
+.trims {
 	display:none;
-	position:absolute!important;
-	top:0!important;
-	left:70px;	
 	background:none repeat scroll 0 0 #ccc!important;
 	border:solid 1px #aaa;
 	text-align:left!important;
@@ -333,6 +330,7 @@ This affected the .trims a  - Chad P
 	display:none;	
 }
 
+.activeTrim {position:absolute;}
 
 /*
 .showcase-flyout .showcase-pane .vehicle .trims{display:none;position:absolute;top:5px;min-width:150px!important;-webkit-column-count:2;-moz-column-count:2;}
