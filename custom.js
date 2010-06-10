@@ -179,7 +179,7 @@ jQuery(function($) {
         function(){ 
 			var position = $(this).offset();
 			$(this).children('.trims').appendTo('body').addClass('activeTrim');
-			$('body').find('.activeTrim').css({ top: position.top + 'px', left: position.left + 'px'}).show();
+			$('body').find('.activeTrim').css({display: 'block', top: position.top + 'px', left: position.left + 'px'});
 		},
         function(){ 
 			$('body').find('.activeTrim').appendTo(this).removeClass('activeTrim');
