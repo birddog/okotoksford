@@ -325,7 +325,7 @@ This affected the .trims a  - Chad P
 .trims br {
 	display:none;	
 }
-.activeTrim {position:absolute;}
+.activeTrim {position:absolute;display:block!important;}
 
 /*
 .showcase-flyout .showcase-pane .vehicle .trims{display:none;position:absolute;top:5px;min-width:150px!important;-webkit-column-count:2;-moz-column-count:2;}
