@@ -179,11 +179,13 @@ jQuery(function($) {
         function(){ 
 			var position = $(this).position();
 			$(this).children('.trims').appendTo('body').addClass('test');
+			$(this).children('.trims').remove();
 			$('body').find('.test').css({ top: position.top + 'px', left: position.left + 'px'})
 			$('body').find('.test').show(); 
 		},
         function(){ 
 			$('body').find('.test').appendTo(this).removeClass('test');
+			$('body').find('.test').remove();
 			$(this).children('.trims').hide(); 
 		}
       );
