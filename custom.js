@@ -177,10 +177,14 @@ jQuery(function($) {
       $('#showcase-flyout .showcase-pane').scrollable({speed:100, size:5, clickable:false, items:'.items', next:'.showcase-next', prev:'.showcase-prev', item:'.vehicle'});
       $('#showcase-flyout .showcase-pane .vehicle').hover(
         function(){ 
-			$(this).children('.trims').show(); 
+			var position = $(this).position();
+			$(this).children('.trims').appendTo('body').addClass('activeTrim');
+			$('body').find('.activeTrim').css({ top: position.top + 'px', left: position.left + 'px'})
+			$('body').find('.activeTrim').show(); 
 		},
         function(){ 
-			$(this).children('.trims').hide(); 
+			$('body').find('.activeTrim').appendTo(this).removeClass('test');
+			$(this).children('.activeTrim').hide(); 
 		}
       );
       $('#showcase-flyout .showcase-tabs').tabs('#showcase-flyout > .showcase-pane');
