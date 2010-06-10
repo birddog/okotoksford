@@ -177,7 +177,7 @@ jQuery(function($) {
       $('#showcase-flyout .showcase-pane').scrollable({speed:100, size:5, clickable:false, items:'.items', next:'.showcase-next', prev:'.showcase-prev', item:'.vehicle'});
       $('#showcase-flyout .showcase-pane .vehicle').hover(
         function(){ 
-			var position = $(this).position();
+			var position = $(this).offset();
 			$(this).children('.trims').appendTo('body').addClass('activeTrim');
 			$('body').find('.activeTrim').css({ top: position.top + 'px', left: position.left + 'px'}).show();
 		},
