@@ -819,7 +819,7 @@ ul.accessoriesWrap li .pleft{padding:10px 30px 20px 10px;}
 .bird_dog .detail .thumbnails .next{background:url(/wp-content/uploads/okotoks-thumbnails-end.jpg) no-repeat scroll 0 0 transparent!important;}
 .bird_dog .detail .thumbnails .prev{background:url(/wp-content/uploads/okotoks-thumbnails-begin.jpg) no-repeat scroll 0 0 transparent!important;}
 .bird_dog .listings .search .search-form input.text-search {width:143px!important;}
-.listings .search .go-button {display:none;}
+.listings .search .go-button {display:none;background-image:url(/wp-content/uploads/GoButton.png);}
 .listings .search .advanced .search-sliders .go-button {display:inline-block;}
 
 /**********************************************/
