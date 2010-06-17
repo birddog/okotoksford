@@ -822,6 +822,7 @@ ul.accessoriesWrap li .pleft{padding:10px 30px 20px 10px;}
 .listings .search .go-button {
 	display:none;
 	background-image:url(/wp-content/uploads/GoButton.png);
+	background-color:#2DB34A;
 	width:23px;
 	height:21px;
 	text-indent:-1000em;
