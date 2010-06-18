@@ -176,16 +176,20 @@ jQuery(function($) {
       $('#showcase-flyout .showcase-pane').append('<div class="showcase-next"></div>');
       $('#showcase-flyout .showcase-pane').scrollable({speed:100, size:5, clickable:false, items:'.items', next:'.showcase-next', prev:'.showcase-prev', item:'.vehicle'});
       $('#showcase-flyout .showcase-pane .vehicle').hover(
-        function(){ 
-			var position = $(this).offset();
-			$(this).children('.trims').appendTo('body').addClass('activeTrim');
-			$('body').find('.activeTrim').css({display: 'block', top: position.top + 'px', left: position.left + 'px'});
-		},
-        function(){ 
-			$('body').find('.activeTrim').appendTo(this).removeClass('activeTrim');
-			$(this).children('.trims').hide(); 
-		}
+        function(){ $(this).children('.trims').show(); },
+        function(){ $(this).children('.trims').hide(); }
       );
+//      $('#showcase-flyout .showcase-pane .vehicle').hover(
+//        function(){ 
+//			var position = $(this).offset();
+//			$(this).children('.trims').appendTo('body').addClass('activeTrim');
+//			$('body').find('.activeTrim').css({display: 'block', top: position.top + 'px', left: position.left + 'px'});
+//		},
+//        function(){ 
+//			$('body').find('.activeTrim').appendTo(this).removeClass('activeTrim');
+//			$(this).children('.trims').hide(); 
+//		}
+//      );
       $('#showcase-flyout .showcase-tabs').tabs('#showcase-flyout > .showcase-pane');
 	}
     $('.page-item-151').hover(function(){
