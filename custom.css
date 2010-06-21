@@ -149,7 +149,7 @@ td#footer div.footeritem a:focus,
 td#footer div.footeritem a:active{font-weight:normal;}
 td#footer a:link,
 td#footer a:visited{color:#666666;font-weight:bold;text-decoration:none;}
-td#footer a:hover{color:#2db34a ;font-weight:bold;text-decoration:none;}
+td#footer a:hover{color:#2db34a;font-weight:bold;text-decoration:none;}
 
 /**************************************
 * Slideshow Widget
@@ -193,10 +193,10 @@ td#footer a:hover{color:#2db34a ;font-weight:bold;text-decoration:none;}
 .dt-showcase .multiselect .item:active{background:#ccc;}
 .dt-showcase .options{font-weight:bold;color:#009;}
 .dt-showcase .options li{float:left;width:40%;display:inline-block;margin:0 0 0 10px;color:999;font-weight:normal;}
-.dt-showcase .options li:before{content:'Ã¢â‚¬Â¢ ';}
+.dt-showcase .options li:before{content:'\2022 ';}
 .dt-showcase .equipment{font-weight:bold;color:#009;}
 .dt-showcase .equipment li{float:left;width:40%;display:inline-block;margin:0 0 0 10px;color:999;font-weight:normal;}
-.dt-showcase .equipment li:before{content:'Ã¢â‚¬Â¢ ';}
+.dt-showcase .equipment li:before{content:'\2022 ';}
 .dt-showcase .photo-gallery-button{margin-left:180px;margin-top:10px;color:transparent;width:85;height:24;cursor:pointer;border:none;background:url(/wp-content/uploads/IMAGE-GALLERY.jpg) no-repeat top left;}
 .dt-showcase .detail .vehicle-info .opt-buttons a.button-facebook{width:132px;height:39px;background:transparent url(/wp-content/uploads/btn-facebook.jpg) center center no-repeat;color:transparent!important;}
 .dt-showcase .detail .vehicle-info .opt-buttons a.button-twitter{width:132px;height:39px;background:transparent url(/wp-content/uploads/btn-twitter.jpg) center center no-repeat;color:transparent!important;}
@@ -204,7 +204,6 @@ td#footer a:hover{color:#2db34a ;font-weight:bold;text-decoration:none;}
 .dt-showcase .detail .vehicle-info .opt-buttons a.button-trade-in{width:132px;height:39px;background:transparent url(/wp-content/uploads/btn-trade-evaluation.jpg) center center no-repeat;color:transparent!important;}
 .dt-showcase .detail .vehicle-info .opt-buttons a.button-tell-a-friend{width:132px;height:39px;background:transparent url(/wp-content/uploads/btn-send-friend.jpg) center center no-repeat;color:transparent!important;}
 .dt-showcase .detail .vehicle-info .opt-buttons a.button-loan-calculator{width:132px;height:39px;background:transparent url(/wp-content/uploads/btn-calculate.jpg) center center no-repeat;color:transparent!important;}
-
 .dt-showcase .detail{padding:0!important;}
 .dt-showcase .detail h1{color:#2db34a !important;font-size:14px;font-weight:bold;padding:5px;margin-bottom:0;}
 .dt-showcase .detail .vehicle-info{border:none!important;background:url("http://assets2.dealertrend.com/images/themes/vehicle_inventory/bird_dog/details-info.png") top center no-repeat!important;float:left;width:370px!important;height:300px!important;font:bold 10pt arial;color:#999;padding:25px 2px 10px!important;margin:0!important;}
@@ -301,37 +300,18 @@ This affected the .trims a  - Chad P
 #showcase-flyout .showcase-pane .items{position:relative;display:block;clear:both;overflow:hidden;width:30000em;height:100px;padding:0;margin:0 15px;border:none;}
 #showcase-flyout .showcase-pane .items .vehicle{position:relative;float:left;width:163px;text-align:center;}
 
-
 /* trim hover */
-.trims {
-	display:none;
-	background:none repeat scroll 0 0 #fff!important;
-	border:solid 1px #aaa;
-	text-align:left!important;
-	padding:0 10px!important;
-	z-index:650;
-	-webkit-border-radius:2px;
-	-moz-border-radius:2px;
-}
-.trims a{
-	display:block;
-	font-size:10px!important;	
-	color:#666!important;
-	background-image:url("/wp-content/uploads/green_arrow_scroller.png");
-	background-position:left 5px!important;
-	background-repeat:no-repeat!important;
-	padding:2px 0 0 10px!important;
-}
-.trims br {
-	display:none;	
-}
-.activeTrim {position:absolute;display:block!important;}
-
-/*
-.showcase-flyout .showcase-pane .vehicle .trims{display:none;position:absolute;top:5px;min-width:150px!important;-webkit-column-count:2;-moz-column-count:2;}
+.dt-showcase .trims,
+.showcase-slider .trims,
+#showcase-flyout .trims{background:none repeat scroll 0 0 #ccc!important;border:solid 1px #aaa;position:absolute!important;top:0!important;left:70px;text-align:left!important;padding:0 10px!important;-webkit-border-radius:5px;-moz-border-radius:5px;-moz-column-count:2;-webkit-column-count:2;z-index:400;white-space:nowrap;}
+.dt-showcase .trims a,
+.showcase-slider .trims a,
+#showcase-flyout .trims a{font-size:10px!important;color:#666;background-image:url("/wp-content/uploads/green_arrow_scroller.png");background-position:left 5px;background-repeat:no-repeat;padding:2px 0 0 8px;}
+.dt-showcase .trims br,
+.showcase-slider .trims br,
+#showcase-flyout .trims br{display:none;}
 .showcase-slider .scrollable .item .trims,
-#showcase-flyout .showcase-pane .vehicle .trims{
-	background:none repeat scroll 0 0 rgba(220,220,220,0.9)!important;border:solid 1px #aaa;position:absolute!important;top:0!important;left:30px;text-align:left!important;padding:2px 10px!important;position:relative;top:-80px;padding:5px;min-width:200px!important;-webkit-border-radius:5px;-moz-column-count:2;-webkit-column-count:2;}
+#showcase-flyout .showcase-pane .vehicle .trims{background:none repeat scroll 0 0 rgb(220,220,220)!important;border:solid 1px #aaa;position:absolute!important;top:0!important;left:30px;text-align:left!important;padding:2px 10px!important;position:relative;top:-80px;padding:5px;min-width:200px!important;-webkit-border-radius:5px;-moz-column-count:2;-webkit-column-count:2;}
 .showcase-slider .scrollable .item .trims br,
 #showcase-flyout .showcase-pane .vehicle .trims br{display:none;}
 .showcase-slider .scrollable .item .trims a,
@@ -340,7 +320,7 @@ This affected the .trims a  - Chad P
 #showcase-flyout .showcase-pane .items .vehicle .trims{position:relative;top:10px!important;border:solid 1px #999;background:#eee;border-radius:7px;padding:10px;z-index:190;text-align:left;min-width:200px!important;white-space:nowrap;}
 .dt-showcase .trims{position:absolute;left:0px;min-width:200px;border:1px solid #aaa;padding:10px;background:#eee;z-index:2;text-align:left;-webkit-border-radius:5px;-moz-border-radius:5px;opacity:.95;-moz-opacity:0.95;}
 .dt-showcase .trims a{text-decoration:none;background-image:url("/wp-content/uploads/green_arrow_scroller.png");background-position:left 3px;background-repeat:no-repeat;padding-left:8px;color:#333;white-space:nowrap;}
-*/
+
 /**************************************
 * News Ticker
 **************************************/
@@ -424,64 +404,19 @@ input[type="checkbox"]{font-size:11px;background-color:#fff;border:1px solid #ca
 .staffEmail {width:345px;}
 
 /* default style */
-.form {
-	position:relative;
-	background-color:#f4f4f4;
-	border:1px solid #ddd;
-	padding:0 10px 10px;
-	font-size:10px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-}
-.form p {margin:0 0 5px;color:#999;font-size:10px;}
-.form fieldset {     	
-	padding:10px 10px 0;
-	border:1px solid #ddd;
-	background-color:#eee;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-}
-.form fieldset fieldset {background-color:#fff;padding-bottom:10px;}
-.form fieldset legend {
-	background-color:#fff;	
-	color:#2db34a;
-	border:1px solid #ddd;
-	border-top:none;
-	font-weight:bold;
-	letter-spacing:1px;
-	padding:5px;
-	margin-top:-1px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;	
-	-moz-border-radius-topleft:0;
-	-webkit-border-top-left-radius:0;
-	-moz-border-radius-topright:0;
-	-webkit-border-top-right-radius	:0;	
-	z-index:1000;
-}
-.form .form-group {
-	position:relative;
-	float:left;	
-	margin-bottom:8px;
-	width:315px;
-}
-.contactusSmall .form-group {width:300px;}
-.partsRequest .form-group, 
-.serviceAppointment .form-group {width:240px;}
-.form .form-group br {
-	display:none!important;	
-}
+.form{position:relative;background-color:#f4f4f4;border:1px solid #ddd;padding:0 10px 10px;font-size:10px;-moz-border-radius:5px;-webkit-border-radius:5px;}
+.form p{margin:0 0 5px;color:#999;font-size:10px;}
+.form fieldset{padding:10px 10px 0;border:1px solid #ddd;background-color:#eee;-moz-border-radius:5px;-webkit-border-radius:5px;}
+.form fieldset fieldset{background-color:#fff;padding-bottom:10px;}
+.form fieldset legend{background-color:#fff;color:#2db34a;border:1px solid #ddd;border-top:none;font-weight:bold;letter-spacing:1px;padding:5px;margin-top:-1px;-moz-border-radius:5px;-webkit-border-radius:5px;-moz-border-radius-topleft:0;-webkit-border-top-left-radius:0;-moz-border-radius-topright:0;-webkit-border-top-right-radius :0;z-index:1000;}
+.form .form-group{position:relative;float:left;margin-bottom:8px;width:315px;}
+.contactusSmall .form-group{width:300px;}
+.partsRequest .form-group,
+.serviceAppointment .form-group{width:240px;}
+.form .form-group br{display:none!important;}
 .form span.wpcf7-form-control-wrap {position:inherit;}
 
-.form label {
-	display:inline-block;
-	width:	150px;
-	text-align:right;
-	font-weight:bold;
-	font-size:10px;
-	vertical-align:middle;
-	color:#999;
-}
+.form label{display:inline-block;width:150px;text-align:right;font-weight:bold;font-size:10px;vertical-align:middle;color:#999;}
 .collisionCenter label {width:110px;}
 .contactus label {width:100px;}
 .contactusSmall label, .staffEmail label, 
@@ -498,110 +433,30 @@ input[type="checkbox"]{font-size:11px;background-color:#fff;border:1px solid #ca
 .collisionCenter textarea {360px;}
 
 /* form validation */
-span.wpcf7-not-valid-tip {
-	position:absolute!important;
-	top:0!important;
-	right:19px!important;
-	background:none repeat scroll 0 0 #E25E4C!important;
-	color:#fff;
-	font-size:11px!important;
-	padding:3px!important;
-	z-index:100!important;
-	width:137px!important;
-}
-.wpcf7-response-output {
-	margin-top:10px;
-	padding:5px;
-	border:1px solid #ddd;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;	
-	color:#222;
-}
-
-div.wpcf7-mail-sent-ok {
-	background-color:#398f14!important;
-}
-
-div.wpcf7-mail-sent-ng {
-	background-color:#ff0000!important;
-}
-
-div.wpcf7-spam-blocked {
-	background-color:#ffa500!important;
-}
-
-div.wpcf7-validation-errors {
-	background-color:#f7e700!important;
-}
-.wpcf7-display-none {
-	display: none;
-}
-
-img.ajax-loader {
-	border: none;
-	vertical-align: middle;
-}
-
+span.wpcf7-not-valid-tip{position:absolute!important;top:0!important;right:19px!important;background:none repeat scroll 0 0 #E25E4C!important;color:#fff;font-size:11px!important;padding:3px!important;z-index:100!important;width:137px!important;}
+.wpcf7-response-output{margin-top:10px;padding:5px;border:1px solid #ddd;-moz-border-radius:5px;-webkit-border-radius:5px;color:#222;}
+div.wpcf7-mail-sent-ok{background-color:#398f14!important;}
+div.wpcf7-mail-sent-ng{background-color:#ff0000!important;}
+div.wpcf7-spam-blocked{background-color:#ffa500!important;}
+div.wpcf7-validation-errors{background-color:#f7e700!important;}
+.wpcf7-display-none{display:none;}
+img.ajax-loader{border:none;vertical-align:middle;}
 /* trade in */
-#step-2 .form-group {
-	width:100%;	
-}
+#step-2 .form-group{width:100%;}
 #step-2 .form-group .wpcf7-list-item {float:left;}
 #step-2 .form-group .wpcf7-list-item-label {color:#999;}
 #step-4 .form-group label , #step-5 .form-group label {display:block;width:auto;text-align:left;}
 #step-5 .form-group {width:358px;}
-.form-group .description {
-	color:#777;
-	font-size:10px;
-	text-align:right;
-	padding-right:20px;
-}
-ul#steps {
-	clear:both;
-	list-style-type:none;
-	margin:0;
-	padding:5px;
-	background-color:#fff;
-	border:1px solid #ddd;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;	
-}
-ul#steps li.current {
-	color:#2db34a;
-}
-ul#steps li span {
-	display:block;
-	font-size:10px;
-}
-ul#steps li {
-	color:#CCCCCC;
-	display:block;
-	float:left;
-	font-size:14px;
-	font-weight:bold;
-	margin-right:10px;
-	width:110px;
-}
-#tradeEstimate .next {
-	float:right!important;
-}
+.form-group .description{color:#777;font-size:10px;text-align:right;padding-right:20px;}
+ul#steps{clear:both;list-style-type:none;margin:0;padding:5px;background-color:#fff;border:1px solid #ddd;-moz-border-radius:5px;-webkit-border-radius:5px;}
+ul#steps li.current{color:#2db34a;}
+ul#steps li span{display:block;font-size:10px;}
+ul#steps li{color:#CCCCCC;display:block;float:left;font-size:14px;font-weight:bold;margin-right:10px;width:110px;}
+#tradeEstimate .next{float:right!important;}
 #tradeEstimate .next, #tradeEstimate .prev ,
-.btnsubmit{
-	background-color:rgba(45, 179, 74, 1.0);
-	color:#fff;
-	display:block;
-	float:left;
-	font-size:12px;
-	padding:5px;
-	margin-top:5px;
-	border:1px solid #ddd;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;		
-}
+.btnsubmit{background-color:rgb(45,179,74);color:#fff;display:block;float:left;font-size:12px;padding:5px;margin-top:5px;border:1px solid #ddd;-moz-border-radius:5px;-webkit-border-radius:5px;}
 #tradeEstimate .next:hover, #tradeEstimate .prev:hover ,
-.btnsubmit:hover, .btnsubmit:focus{
-	background-color:rgba(45, 179, 74, 0.7);
-}
+.btnsubmit:hover,.btnsubmit:focus{background-color:rgb(45,179,74);}
 /*.wrap{float:left;}
 .form-item{margin:0 0 5px 10px;clear:both;}
 .form-item .description{font-size:9px;color:#999;}
@@ -658,13 +513,13 @@ ul#steps li span{font-size:11px;display:block;}
 #tradeEstimate #step-4 .form-item{width:218px;}
 #tradeEstimate #step-5 .form-item{width:40%;}
 #tradeEstimate .next,
-#tradeEstimate .prev{display:block;padding:5px;background-color:rgba(45,179,74,0.7);color:#fff;font-size:12px;}
+#tradeEstimate .prev{display:block;padding:5px;background-color:rgb(45,179,74);color:#fff;font-size:12px;}
 #tradeEstimate a.next:hover,
-#tradeEstimate a.prev:hover{background-color:rgba(45,179,74,1.0);}
+#tradeEstimate a.prev:hover{background-color:rgb(45,179,74);}
 #tradeEstimate .prev{float:left;}
 #tradeEstimate .next{float:right;}
 #tradeEstimate > p{margin-left:0!important;margin-top:10px;}
-#tradeEstimate > p > input{display:block;padding:5px;background-color:rgba(45,179,74,1.0);color:#fff;font-size:12px;cursor:pointer;}*/
+#tradeEstimate > p > input{display:block;padding:5px;background-color:rgb(45,179,74);color:#fff;font-size:12px;cursor:pointer;}*/
 
 /**************************************
 * Flash App Pages
@@ -700,6 +555,7 @@ td.emailRight{text-align:right !important;padding-right:5px;}
 #emailWindow .staff-email{display:none;}
 #emailWindow .button{float:left;}
 #emailWindow #close-window{float:right;}
+
 .combo-search .combo{width:90px!important;}
 body.page-id-43 #site-content > .grid_10{margin-left:0;}
 /* margin fix */ 
@@ -765,7 +621,7 @@ ul.accessoriesWrap{list-style-type:none;margin:0 auto;padding:0;}
 ul.accessoriesWrap li{margin:0;padding:0;float:left;position:relative;/* Set the absolute positioning base coordinate */width:90px;height:90px;}
 ul.accessoriesWrap li img{width:80px;/* Set the small thumbnail size */-ms-interpolation-mode:bicubic;/* IE Fix for Bicubic Scaling */margin:0;position:absolute;left:0;top:0;cursor:pointer;z-index:5;}
 ul.accessoriesWrap li img.imgHov{/* Image used as background on hover effect */}
-ul.accessoriesWrap li .description{display:none;position:absolute;top:20px;width:200px;background-color:rgb(0,0,0);background-color:rgba(0,0,0,0.8);border:1px solid #999;-moz-border-radius:5px;-webkit-border-radius:5px;color:#fff;font-size:10px;z-index:2;}
+ul.accessoriesWrap li .description{display:none;position:absolute;top:20px;width:200px;background-color:rgb(0,0,0);background-color:rgb(0,0,0);border:1px solid #999;-moz-border-radius:5px;-webkit-border-radius:5px;color:#fff;font-size:10px;z-index:2;}
 ul.accessoriesWrap li .description h4{color:#fff;margin:5px;font-size:12px;}
 ul.accessoriesWrap li .description p{margin:0 5px 5px;color:#ccc;}
 ul.accessoriesWrap li .pright{padding:10px 10px 20px 30px;}
@@ -795,20 +651,9 @@ ul.accessoriesWrap li .pleft{padding:10px 30px 20px 10px;}
 .bird_dog .detail .vehicle-info .vehicle-buttons a{display:block;float:left;}
 .bird_dog .detail .vehicle-desc{font-size:14px;}
 .bird_dog .listings .search .grad.toggle img{display:none;}
-.bird_dog .listings .search .grad.toggle > div{
-	background:url(/wp-content/uploads/green-arrow.jpg) scroll no-repeat 0 0 transparent!important;
-	height:25px;
-	width:34px;
-	display:inline-block;
-	vertical-align:middle;
-}
+.bird_dog .listings .search .grad.toggle > div{background:url(/wp-content/uploads/green-arrow.jpg) scroll no-repeat 0 0 transparent!important;height:25px;width:34px;display:inline-block;vertical-align:middle;}
 .bird_dog .detail .fuel_economy,
-.detail .fuel-economy {
-  padding-top: 10px!important;
-	background-image:url(/wp-content/uploads/okotoks-tab-hash-pattern.jpg) !important;
-	background-repeat: no-repeat !important;
-	background-position: right top !important;
-}
+.detail .fuel-economy{padding-top:10px!important;background-image:url(/wp-content/uploads/okotoks-tab-hash-pattern.jpg) !important;background-repeat:no-repeat !important;background-position:right top !important;}
 .bird_dog .listings .search .quick-combo-search{display:inline-block;padding:10px 0 10px 5px;text-align:left;}
 .bird_dog .listings .search .quick-combo-search select{font-size:11px;}
 .bird_dog .listings .search .quick-combo-search label{vertical-align:middle;display:inline-block;text-transform:uppercase;float:left;padding:3px 3px 0 0;}
@@ -859,154 +704,47 @@ ul.accessoriesWrap li .pleft{padding:10px 30px 20px 10px;}
 #site-content .ribbon{background:url(/wp-content/uploads/collision-ribbon.png) scroll 0 0 no-repeat transparent;width:384px;height:188px;position:absolute;right:-13px;top:-10px;}
 #site-content .collisionform{display:none;position:absolute;width:400px;}
 .close{position:absolute;right:-10px;top:-5px;cursor:pointer;cursor:hand;display:block;height:25px;width:25px;overflow:hidden;background-image:url(/wp-content/uploads/2010/03/vidClose.png);outline:0;z-index:225;}
+
 /**************************************
  * SYNC PAGE
- *
 **************************************/
-#sync-wrap {
-background:url(/wp-content/uploads/2010/03/sync-landing.jpg) scroll -120px -130px no-repeat transparent;
-height:405px;
-position:relative;
-}
-#sync-body {position:relative;} 
-#sync-body h1 {
-font-weight:bold;
-margin:19px 0 0 10px;
-}
-#sync-body h5 {
-margin:5px 0 0 10px;
-color:#222;
-font-size:11px
-}
-#sync-body div.video {
-margin:30px 0 10px 20px;
-width:221px;
-overflow:hidden;
-}
-#sync-body div.video a {
-background-image:url(/wp-content/uploads/2010/03/innovation-button-background.png);
-background-position:top left;
-background-repeat:no-repeat;
-height:31px;
-text-decoration:none;
-display:block;
-position:relative;
-}
-#sync-body div.video a:hover {
-background-position:left -32px;
-}
-#sync-body div.video a span{
-position:absolute;
-top:8px;
-left:40px;
-width:180px;
-color:#fff;
-font-weight:bold;
-font-size:11px;
-text-align:left;
-}
-#sync-body div.videoplayer {
-display:none;
-padding:1em;
-position:absolute;
-left:20px;
-top:60px;
-background-color:#fff;
-border:1px solid #eee;
--moz-border-radius:5px;
-}
+#sync-wrap{background:url(/wp-content/uploads/2010/03/sync-landing.jpg) scroll -120px -130px no-repeat transparent;height:405px;position:relative;}
+#sync-body{position:relative;}
+#sync-body h1{font-weight:bold;margin:19px 0 0 10px;}
+#sync-body h5{margin:5px 0 0 10px;color:#222;font-size:11px}
+#sync-body div.video{margin:30px 0 10px 20px;width:221px;overflow:hidden;}
+#sync-body div.video a{background-image:url(/wp-content/uploads/2010/03/innovation-button-background.png);background-position:top left;background-repeat:no-repeat;height:31px;text-decoration:none;display:block;position:relative;}
+#sync-body div.video a:hover{background-position:left -32px;}
+#sync-body div.video a span{position:absolute;top:8px;left:40px;width:180px;color:#fff;font-weight:bold;font-size:11px;text-align:left;}
+#sync-body div.videoplayer{display:none;padding:1em;position:absolute;left:20px;top:60px;background-color:#fff;border:1px solid #eee;-moz-border-radius:5px;}
 #sync-body div.videoplayer a.vidClose,
 #sync-about .close,
-#sync-availability .close   {
-position:absolute;
-right:-10px;
-top:-10px;
-cursor:pointer;
-cursor:hand;
-display:block;
-height:25px;
-width:25px;
-overflow:hidden;
-background-image:url(/wp-content/uploads/2010/03/vidClose.png);
-outline:0;
-z-index:100;
-}
+#sync-availability .close{position:absolute;right:-10px;top:-10px;cursor:pointer;cursor:hand;display:block;height:25px;width:25px;overflow:hidden;background-image:url(/wp-content/uploads/2010/03/vidClose.png);outline:0;z-index:100;}
 #sync-body div.videoplayer a.vidClose span,
 #sync-about .close span,
-#sync-availability .close span{
-display:none;
-}
-#sync-sidebar {
-background:transparent url(/wp-content/uploads/2010/03/innovation-landing-nav-bg.png) no-repeat scroll 60px 20px;
-height:341px;
-}
-#sync-sidebar h2 {
-margin:30px 10px 5px 70px;
-color:#222;
-font-size:12px;
-font-weight:bold;
-letter-spacing:0.29px;
-margin-bottom:5px;
-position:relative;
-word-spacing:0;
-}
+#sync-availability .close span{display:none;}
+#sync-sidebar{background:transparent url(/wp-content/uploads/2010/03/innovation-landing-nav-bg.png) no-repeat scroll 60px 20px;height:341px;}
+#sync-sidebar h2{margin:30px 10px 5px 70px;color:#222;font-size:12px;font-weight:bold;letter-spacing:0.29px;margin-bottom:5px;position:relative;word-spacing:0;}
 #sync-sidebar h2.owners {margin:30px 10px 5px 70px}
 
-#sync-sidebar ul {
-width:180px;
-margin:0 0 0 70px;
-list-style-type:none;
-}
-#sync-sidebar ul li {
-background:url(/wp-content/uploads/2010/03/blue-arrow-link.gif) scroll 5px 5px no-repeat transparent;
-padding-left:15px;
-margin-bottom:0.5em;
-}
+#sync-sidebar ul{width:180px;margin:0 0 0 70px;list-style-type:none;}
+#sync-sidebar ul li{background:url(/wp-content/uploads/2010/03/blue-arrow-link.gif) scroll 5px 5px no-repeat transparent;padding-left:15px;margin-bottom:0.5em;}
 #sync-sidebar ul li a {font-size:11px;}
 
-#sync-sidebar p {
-margin:0 0 0.5em 70px;
-width:180px;
-text-align:left;
-font-size:10px;
-}
+#sync-sidebar p{margin:0 0 0.5em 70px;width:180px;text-align:left;font-size:10px;}
 #sync-sidebar ul.actions {}
 #sync-sidebar ul.actions:after {clear:both;height:1%;overflow:hidden; }
 #sync-sidebar ul.actions li {float:left;margin-right:5px; }
 
-#sync-nav { 
-position:absolute;
-top:-10px;
-left:290px;
-width:400px;
-background-color:#fff; 
-padding:3px;
-text-align:center;
--moz-border-radius:5px;
-z-index:520;
-}
+#sync-nav{position:absolute;top:-10px;left:290px;width:400px;background-color:#fff;padding:3px;text-align:center;-moz-border-radius:5px;z-index:520;}
 #sync-nav a {display: inline; color:#222; font-weight:bold; font-size:13px;padding:0.5em;}
-#sync-nav-content h2, #sync-nav-content h3 { font-weight:bold; }
+#sync-nav-content h2, 
+#sync-nav-content h3 { font-weight:bold; }
 #sync-nav-content #sync-about,
-#sync-nav-content #sync-availability {
-display:none;
-position:absolute;
-left:20px;
-top:60px;
-width:480px;
-height:300px;
-padding:1em;
-background-color:#fff;
-border:1px solid #eee;
-z-index:530;
--moz-border-radius:5px;
-}
+#sync-nav-content #sync-availability{display:none;position:absolute;left:20px;top:60px;width:480px;height:300px;padding:1em;background-color:#fff;border:1px solid #eee;z-index:530;-moz-border-radius:5px;}
 #sync-nav-content #sync-availability #sync-availability-ford,
 #sync-nav-content #sync-availability #sync-availability-lincoln,
-#sync-nav-content #sync-availability #sync-availability-mercury{
-float:left;
-margin-right:2em;
-}
+#sync-nav-content #sync-availability #sync-availability-mercury{float:left;margin-right:2em;}
 
 /**********************************************/
 /* Lightbox

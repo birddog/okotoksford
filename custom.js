@@ -1,3 +1,6 @@
+/**************************************
+ *	JavaScript - Okotoks Ford
+**************************************/
 jQuery(function($) {
 
   $.fn.log = function (msg) {
@@ -300,14 +303,14 @@ jQuery(function($) {
           "background-repeat" : "no-repeat"
         });
       } else {
-		  if($("body.page-id-232").length){
-			sidebarMenu.find("li:first ul").show().addClass("activeParent").css({
-				"background-color" : "#F4F4F4",
-				"background-image" : "url(/wp-content/uploads/sidebar-current-page-arrow.png)",
-				"background-position" : "left -280px",
-				"background-repeat" : "no-repeat"
-			});;
-		  }
+  		  if ($("body.page-id-232").length){
+    			sidebarMenu.find("li:first ul").show().addClass("activeParent").css({
+    				"background-color" : "#F4F4F4",
+    				"background-image" : "url(/wp-content/uploads/sidebar-current-page-arrow.png)",
+    				"background-position" : "left -280px",
+    				"background-repeat" : "no-repeat"
+    			});
+  		  }
       }
     }
   }
@@ -346,6 +349,7 @@ jQuery(function($) {
 
     }
   }
+  
 	if($("#scNav").length){
 		$("#scNav .navItem:first").next(".section").slideToggle("slow");
 		$("#scNav .navItem").toggle(function(){
@@ -354,6 +358,7 @@ jQuery(function($) {
 			$(this).next(".section").slideToggle("fast");
 		});
 	}
+	
   //*************************
   //* wizard for forms
   //*************************
@@ -392,7 +397,7 @@ jQuery(function($) {
 
        if($(".mmf-checkbox").length) {
          var checkboxes = $(".mmf-checkbox");
-		checkboxes.append("<div class='clear'></div>");
+		     checkboxes.append("<div class='clear'></div>");
        }
 
       $("#steps").append("<div class='clear'></div>");
@@ -431,7 +436,9 @@ jQuery(function($) {
     $("#stepDesc" + i).addClass("current");
   }
 
-  $("#pikame").PikaChoose({thumb_height:30,thumb_width:30});
+  if ($('#pikame').length) {
+    $("#pikame").PikaChoose({thumb_height:30,thumb_width:30});
+  }
 
   if($("#scnav").length){
     $('#scNav .navItem').bind('click', function() {
@@ -454,7 +461,8 @@ jQuery(function($) {
 	}
      });
   }
- if($(".accessories").length){
+  
+  if($(".accessories").length){
     $("ul.accessoriesWrap li").hover(function (e) {
           $(this).css({'z-index': 10 }).find('img').addClass("hover").stop().animate({width: '140px'},{duration: 100});
 
@@ -497,6 +505,10 @@ jQuery(function($) {
 			return false;
 		});
 	}
+	
+  /* QUICKFIND SHOWCASE */	
+  if($("#slideout-showcase").length){
+  }
 
   /* Detail page Lightbox */
   if ($('.detail .photos a.photo').length) {
