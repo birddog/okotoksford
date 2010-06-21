@@ -175,8 +175,7 @@ td#footer a:hover{color:#2db34a;font-weight:bold;text-decoration:none;}
 * Showroom Widget
 **************************************/
 .dt-showcase{width:750px;margin:10px auto;}
-.dt-showcase .vehicle{display:inline-block;position:relative;margin:5px!important;text-align:center;background:white;}
-.dt-showcase .vehicle{background:#eee;padding:5px;margin:5px!important;color:#e21c22;}
+.dt-showcase .vehicle{display:inline-block;position:relative;margin:5px!important;text-align:center;background:white;padding:5px;color:#e21c22;}
 .dt-showcase p{margin:5px 10px;}
 .dt-showcase .models{padding:10px;}
 .dt-showcase .model{float:left;width:180px;height:100px;text-align:center;}
