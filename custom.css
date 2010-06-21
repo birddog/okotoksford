@@ -303,7 +303,7 @@ This affected the .trims a  - Chad P
 /* trim hover */
 .dt-showcase .trims,
 .showcase-slider .trims,
-#showcase-flyout .trims{background:none repeat scroll 0 0 #ccc!important;border:solid 1px #aaa;position:absolute!important;top:0!important;left:70px;text-align:left!important;padding:0 10px!important;-webkit-border-radius:5px;-moz-border-radius:5px;-moz-column-count:2;-webkit-column-count:2;z-index:400;white-space:nowrap;}
+#showcase-flyout .trims{display:none;background:none repeat scroll 0 0 #ccc!important;border:solid 1px #aaa;position:absolute!important;top:0!important;left:70px;text-align:left!important;padding:0 10px!important;-webkit-border-radius:5px;-moz-border-radius:5px;-moz-column-count:2;-webkit-column-count:2;z-index:400;white-space:nowrap;}
 .dt-showcase .trims a,
 .showcase-slider .trims a,
 #showcase-flyout .trims a{font-size:10px!important;color:#666;background-image:url("/wp-content/uploads/green_arrow_scroller.png");background-position:left 5px;background-repeat:no-repeat;padding:2px 0 0 8px;}
