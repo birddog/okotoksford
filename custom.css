@@ -74,7 +74,7 @@ body.page-parent #home-content{}
 #menubar .nav li.page-item-159 a{background-position:-182px 0;width:120px}
 #menubar .nav li.page-item-3008 a{background-position:-182px 0;width:120px;}
 #menubar .nav li.page-item-163 a {background-position:-182px 0;width:120px;}
-#menubar .nav li.page-item-165 a{background-position:-182px 0;width:120px;}
+#menubar .nav li.page-item-165 a{background-position:-182px 0;width:110px;background-position:right top;}
 #menubar .nav li.last{	float:left;width:150px;background-image:url(/wp-content/uploads/menubar-nav-bg.png);background-position:right top;height:34px;display:none;}
 /* menubar overrides */
 .nav li a,
