@@ -86,6 +86,7 @@ body.page-parent #home-content{}
 #menu-navigation li li a:active{margin:0; position:inherit; float:none}
 
 #menubar #menu-navigation li .sub-menu{
+	width:auto;
 	background-color:#222;
 	padding-bottom:5px;
 	border-left:1px solid #BABABA;
