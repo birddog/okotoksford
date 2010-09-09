@@ -49,7 +49,7 @@ img,
 #header #phone-numbers table{width:100%;}
 #header #phone-numbers table td{text-align:right;}
 #header #phone-numbers strong{font:bold 11pt;color:#2db34a;}
-#site-content{margin:0;}
+#site-content{margin:0;z-index:6;}
 body.page-parent #home-content{}
 #home-1.widget-zones{margin:0;}
 #contact-us-page{padding:50px;}
@@ -65,7 +65,7 @@ body.page-parent #home-content{}
 /**************************************
 * Menubar
 **************************************/
-#menubar{width:960px;height:34px;margin-bottom:5px;padding-left:0;position:relative;z-index:500;}
+#menubar{width:960px;height:34px;margin-bottom:5px;padding-left:0;position:relative;z-index:7;}
 #menubar #menu-navigation > li {float:left;}
 #menubar #menu-navigation > li > a{display:block; color:#fff; background-image:url(/wp-content/uploads/menubar-nav-bg.png); padding:6px 0 0 7px; height:28px; line-height:20px; font-size:11px; text-transform:uppercase}
 #menubar #menu-item-3742 a{background-position:left 0;width:65px;padding-left:11px;}
