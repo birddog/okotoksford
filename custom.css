@@ -63,7 +63,7 @@ body.page-parent #home-content{}
 /**************************************
 * Menubar
 **************************************/
-#menubar{width:960px;height:34px;margin-bottom:5px;padding-left:0;position:relative;z-index:7;}
+#menubar{width:960px;height:34px;margin-bottom:5px;padding-left:0;position:relative;z-index:10;}
 #menubar #menu-navigation > li {float:left;}
 #menubar #menu-navigation > li > a{display:block; color:#fff; background-image:url(/wp-content/uploads/menubar-nav-bg.png); padding:6px 0 0 7px; height:28px; line-height:20px; font-size:11px; text-transform:uppercase}
 #menubar #menu-item-3742 a{background-position:left 0;width:65px;padding-left:11px;}
