@@ -16,8 +16,8 @@ table, caption, tbody, tfoot, thead, tr, th, td {
   border: 0;
   font-weight: inherit;
   font-style: inherit;
-  font-size: 11px;
-  font-family: Arial;
+  font-size: inherit;
+  font-family: inherit;
   vertical-align: baseline;
 }
 
