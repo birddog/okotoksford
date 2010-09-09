@@ -68,18 +68,18 @@ body.page-parent #home-content{}
 #menubar{width:960px;height:34px;margin-bottom:5px;padding-left:0;position:relative;z-index:500;}
 #menubar #menu-navigation > li {float:left;}
 #menubar #menu-navigation > li > a{display:block; color:#fff; background-image:url(/wp-content/uploads/menubar-nav-bg.png); padding:6px 0 0 7px; height:28px; line-height:20px; font-size:11px; text-transform:uppercase}
-#menubar #menu-item-3856 a{background-position:left 0;width:65px;padding-left:11px;}
-#menubar #menu-item-3857 a{background-position:-182px 0;width:129px;}
-#menubar #menu-item-3858 a{background-position:-182px 0;width:144px;}
-#menubar #menu-item-3859 a{background-position:-182px 0;width:133px;}
-#menubar #menu-item-3860 a{background-position:-182px 0;width:100px;}
-#menubar #menu-item-3861 a{background-position:-182px 0;width:105px;}
-#menubar #menu-item-3862 a{background-position:-182px 0;width:119px;}
-#menubar #menu-item-3863 a{background-position:right top;width:109px;}
+#menubar #menu-item-3742 a{background-position:left 0;width:65px;padding-left:11px;}
+#menubar #menu-item-3743 a{background-position:-182px 0;width:131px;}
+#menubar #menu-item-3744 a{background-position:-182px 0;width:131px;}
+#menubar #menu-item-3745 a{background-position:-182px 0;width:131px;}
+#menubar #menu-item-3746 a{background-position:-182px 0;width:131px;}
+#menubar #menu-item-3774 a{background-position:-182px 0;width:131px;}
+#menubar #menu-item-3747 a{background-position:-182px 0;width:131px;}
+#menubar #menu-item-3748 a{background-position:right top;width:109px;}
 
 #menubar #menu-navigation >li >a:hover{color:#fff; background-position:-182px bottom}
-#menubar #menu-item-3856 >a:hover{background-position:left bottom!important}
-#menubar #menu-item-3863 >a:hover{background-position:right bottom!important}
+#menubar #menu-item-3742 >a:hover{background-position:left bottom!important}
+#menubar #menu-item-3748 >a:hover{background-position:right bottom!important}
 
 #menu-navigation li a, 
 #menu-navigation li a:visited .nav li li a, 
@@ -105,18 +105,8 @@ body.page-parent #home-content{}
 #menubar #menu-navigation li .sub-menu li > .sub-menu {
 	border:1px solid #BABABA!important;
 }
-#menubar #menu-navigation li .sub-menu li > .sub-menu li:first {
-	-webkit-background-clip:padding-box;
-	-moz-background-clip:padding-box;	
-}
-#menubar #menu-navigation li.menu-item-3860 .sub-menu{width:140px;}
-#menubar #menu-navigation li.menu-item-3860 .sub-menu a{width:auto;}
-#menubar #menu-navigation li.menu-item-3862 .sub-menu {width:120px;}
-#menubar #menu-navigation li.menu-item-3862 .sub-menu a{width:auto;}
-#menubar #menu-navigation li.menu-item-3863 .sub-menu{width:109px}
-#menubar #menu-navigation li.menu-item-3863 .sub-menu a{width:auto}
 #menubar #menu-navigation li .sub-menu >li{float:none}
-#menubar #menu-navigation li .sub-menu >li a{background:none 0 0 #222; font-size:11px; color:#fff;padding:3px 0 3px 7px}
+#menubar #menu-navigation li .sub-menu >li a{background:none 0 0 #222; font-size:11px; color:#fff;padding:3px 0 3px 7px; width:auto}
 #menubar #menu-navigation li .sub-menu >li a:hover{background-color:#e21c22; color:#fff}
 
 /**************************************
