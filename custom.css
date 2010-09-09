@@ -112,7 +112,8 @@ body.page-parent #home-content{}
 * Footer
 **************************************/
 #footer-bottom {
-	border-left:1px solid #ccc;
+	border-top:1px solid #ccc;
+	background:url(/wp-content/uploads/footer-bottom-background.gif) repeat 0 top transparent;
 }
 #footer-bottom a{
 	color:#555;
@@ -121,24 +122,17 @@ body.page-parent #home-content{}
 #footer-bottom a:hover{color:#2db34a;}
 #footer-bottom h5 a {
 	color:#2db34a;
-	font-size:14px;
 }
 #footer-bottom .footer-row {
 	background:url(/wp-content/uploads/footer-bottom-background.gif) repeat-x 0 bottom #fff;	
-	height:177px;
-	border-top:1px solid #ccc;
+	height:170px;
 	overflow:hidden;
+	margin:0 auto;
+	width:960px;
 }
 #footer-bottom .footer-row div {margin:0 0 0 10px;padding:10px 0 10px 10px;height:157px;border-left:1px solid #ccc;}
 #footer-bottom .footer-row div.alpha {border:none;}
 #footer-bottom .footer-row div.grid_3 {width:210px;}
-#footer-bottom .footer-row div .right {float:right;}
-#footer-bottom .footer-row div ul.last {
-	width:120px;
-}
-#footer-bottom .footer-row div.qm ul.last {
-	width:170px;
-}
 #footer-bottom ul {
 	float:left;
 	padding:0 0 0 1.5em;
@@ -154,10 +148,10 @@ body.page-parent #home-content{}
 	border-top:1px solid #ccc;	
 }
 #footer-bottom #dealership-links {
-		border-top:1px solid #ccc;
-		text-align:center;
-		padding:15px 0;
-		font-size:12px;
+	border-top:1px solid #ccc;
+	text-align:center;
+	padding:15px 0;
+	font-size:12px;
 }
 
 /**************************************
