@@ -346,7 +346,7 @@ This affected the .trims a  - Chad P
 #news-ticker .scrollable .sliderwidget-next{float:left;background:transparent url('/wp-content/uploads/small-arrow1.png') no-repeat center center;}
 #news-ticker .scrollable .sliderwidget-prev{float:right;background:transparent url('/wp-content/uploads/small-arrow2.png') no-repeat center center;right:0;}
 #news-ticker .scrollable .item,
-#news-ticker .scrollable .item img{width:136px!important;}
+#news-ticker .scrollable .item img{}
 .slider .scrollable .items .item p{text-align:center;}
 .slider .scrollable .items .item a{color:#777;}
 .slider .scrollable .items .item a img,
